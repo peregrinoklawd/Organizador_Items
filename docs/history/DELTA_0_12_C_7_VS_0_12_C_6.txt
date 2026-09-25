@@ -1,0 +1,19 @@
+0.12-C.7 vs 0.12-C.6
+
+FUNCIONAL / UI
+- NOVO: resolveUIPointerSource.sqf
+- NOVO: finalizeUIPointerDrop.sqf
+- REESCRITO: handleUIDragEvent.sqf para autoridade do display.
+- REESCRITO: resolveUIPanelDropTarget.sqf para coordenadas UI + bounds compartilhados.
+- ALTERADO: items_dialog.hpp recebe onMouseButtonDown no display e usa bounds compartilhados P2/P4.
+- ALTERADO: renderCatalogRowsUI/renderEquipmentRowsUI/refreshDraftMutationUI deixam de instalar MouseButtonDown por filho.
+- ALTERADO: createUIState/cancelUIDrag gerenciam candidato, distância e estado do botão do ponteiro.
+
+TESTES
+- Gates históricos 271/289 alinhados à arquitetura legítima atual, mantendo IDs.
+- Gates C.6 516/520/522/523 corrigidos sem renumerar.
+- C.6 passa a validar origem em linha realmente renderizada + finalizador de produção, sem chamar *_DRAG_START como atalho.
+- Novos gates 525..530.
+
+CONGELADO
+- Application, Catalog Service, Domain, Draft, Inventory, Storage e Nexus.

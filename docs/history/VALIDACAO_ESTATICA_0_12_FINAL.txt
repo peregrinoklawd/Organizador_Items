@@ -1,0 +1,20 @@
+SP_ORG_Items 0.12 FINAL — Validação Estática
+
+Baseline: 0.12-D.7.4 homologada manualmente
+Build: 0.12.0.28-final-integration-freeze
+
+Arquivos de código analisados: 272
+Problemas léxicos/delimitadores detectados: 0
+
+Runtime crítico preservado:
+- ServoPeregrino_Organizador_Items/functions/application: BYTE_IDENTICAL
+- ServoPeregrino_Organizador_Items/functions/library: BYTE_IDENTICAL
+- ServoPeregrino_Organizador_Items/functions/storage: BYTE_IDENTICAL
+- ServoPeregrino_Organizador_Items/functions/catalog: BYTE_IDENTICAL
+- ServoPeregrino_Organizador_Items/functions/draft: BYTE_IDENTICAL
+- ServoPeregrino_Organizador_Items/functions/capture: BYTE_IDENTICAL
+
+Escopo funcional novo: NENHUM
+Gates automáticos históricos 516/523: dívida conhecida preservada por decisão explícita; não corrigidos.
+
+Resultado: PASS

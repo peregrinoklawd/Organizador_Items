@@ -1,0 +1,24 @@
+ARQUIVOS DE CÓDIGO ALTERADOS — 0.12-D.6.3
+
+MOD ServoPeregrino_Organizador_Items/config.cpp
+MOD ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+MOD ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointCTests.sqf
+MOD ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD62Tests.sqf
+ADD ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD63Tests.sqf
+MOD ServoPeregrino_Organizador_Items/functions/ui/fn_executeUITransferCommand.sqf
+MOD ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIDragEvent.sqf
+MOD ServoPeregrino_Organizador_Items/functions/ui/fn_handleUITransferToDraft.sqf
+MOD ServoPeregrino_Organizador_Items/script_version.hpp
+MOD ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+MOD description.ext
+MOD initPlayerLocal.sqf
+
+Documentação acrescentada:
+ADD 00_LEIA_0_12_D_6_3.txt
+ADD README_0_12_D_6_3.txt
+ADD INSTRUCOES_TESTE_0_12_D_6_3.md
+ADD DELTA_0_12_D_6_3_VS_0_12_D_6_2.txt
+ADD ARQUIVOS_ALTERADOS_0_12_D_6_3.txt
+ADD VALIDACAO_ESTATICA_0_12_D_6_3.txt
+ADD SOURCE_TREE_SHA256_0_12_D_6_3.txt
+ADD INVENTARIO_SHA256_0_12_D_6_3.txt

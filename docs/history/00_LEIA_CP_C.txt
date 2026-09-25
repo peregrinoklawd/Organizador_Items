@@ -1,0 +1,19 @@
+SP_ORG_Items — 0.11 CP-C — Capacity & Item Awareness
+
+Candidata de teste. Não é baseline homologada até aprovação manual.
+
+Objetivos desta entrega:
+1. incorporar o hardening do runner CP-B.7 para restaurar a herança esperada 442/442;
+2. exibir massa/carga dos itens sem converter artificialmente para kg;
+3. exibir quantidade e massa total por linha no Equipment;
+4. exibir massa total do Draft e do CONTENT visualizado;
+5. exibir capacidade usada/máxima/livre quando o container do Arma fornece métrica confiável;
+6. preservar magazines EXACT e todos os refreshes focais de performance.
+
+Teste automático esperado:
+BASE CP-B.7 = 442/442
+CP-C = 8/8
+FAIL = 0
+CUMULATIVO = 450/450
+
+Depois, faça smoke manual com CONFIG_ALL pronto e envie o RPT.

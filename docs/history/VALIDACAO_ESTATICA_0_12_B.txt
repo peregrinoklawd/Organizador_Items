@@ -1,0 +1,101 @@
+SP_ORG_Items 0.12-B — VALIDAÇÃO ESTÁTICA
+Build: 0.12.0.2-b-equipment-row-controls-capacity-ux
+Baseline: 0.12-A / 468 gates
+Esperado runtime: 478/478
+
+TOTAL=95 PASS=95 FAIL=0
+[PASS] identity display 0.12-B
+[PASS] identity semantic 0.12.0.2
+[PASS] identity build
+[PASS] gate count 10
+[PASS] cumulative 478
+[PASS] equipment table macro 4140
+[PASS] freeze Nexus | 24 files; delta=[]
+[PASS] freeze Application Engine | 23 files; delta=[]
+[PASS] freeze Domain | 17 files; delta=[]
+[PASS] freeze Draft Domain | 21 files; delta=[]
+[PASS] freeze Storage | 13 files; delta=[]
+[PASS] freeze Catalog Service | 11 files; delta=[]
+[PASS] freeze Inventory Domain | 11 files; delta=[]
+[PASS] delta whitelist only | changed=25 unexpected=[]
+[PASS] delta expected scope | changed=25
+[PASS] Equipment CT table class
+[PASS] Equipment table IDC
+[PASS] capture column
+[PASS] minus column
+[PASS] quantity column
+[PASS] plus column
+[PASS] delete column
+[PASS] capacity label
+[PASS] capacity bar bg
+[PASS] capacity bar fill
+[PASS] capacity text
+[PASS] pointer DnD handler
+[PASS] legacy list hidden
+[PASS] legacy 4130 hidden
+[PASS] legacy 4131 hidden
+[PASS] legacy 4132 hidden
+[PASS] legacy 4133 hidden
+[PASS] positive static IDCs unique | duplicates={}
+[PASS] dynamic IDC ranges separated
+[PASS] renderer adds rows
+[PASS] payload frozen per row
+[PASS] view frozen per row
+[PASS] physical row actions reused
+[PASS] quantity commit reused
+[PASS] quantity Enter reused
+[PASS] EXACT visible
+[PASS] EXACT plus semantic
+[PASS] free capacity metric
+[PASS] capacity ratio visual
+[PASS] selection restore
+[PASS] scroll restore
+[PASS] capacity ratio clamped
+[PASS] renderer no physical executor duplication
+[PASS] renderer no storage writes
+[PASS] capture origin tagged
+[PASS] capture EQUIPMENT to DRAFT
+[PASS] capture refresh draft focused
+[PASS] capture no inventory mutation
+[PASS] custom drag start
+[PASS] custom drag state
+[PASS] custom drag command origin
+[PASS] outside drop cancellation
+[PASS] custom drag only Draft transfer
+[PASS] FULL uses common renderer
+[PASS] EQUIPMENT_FOCUSED uses common renderer
+[PASS] PHYSICAL_FOCUSED uses common renderer
+[PASS] equipment focused has no undefined same-view rows pattern
+[PASS] equipment focused identifies mode
+[PASS] equipment refresh no direct FULL call
+[PASS] physical focused common renderer no FULL
+[PASS] Delete dynamic payload top-level
+[PASS] Delete row converges central request
+[PASS] renderEquipmentRowsUI registered description
+[PASS] renderEquipmentRowsUI registered config
+[PASS] captureEquipmentRowToDraft registered description
+[PASS] captureEquipmentRowToDraft registered config
+[PASS] runDelivery0_12CheckpointBTests registered description
+[PASS] runDelivery0_12CheckpointBTests registered config
+[PASS] all Items fn files registered mission | 203 files; missing=[]
+[PASS] all Items function refs resolve | 175 refs; missing=[]
+[PASS] B gate IDs contiguous 469-478 | ids=[469, 470, 471, 472, 473, 474, 475, 476, 477, 478]
+[PASS] B runner calls A baseline
+[PASS] B baseline fail-fast
+[PASS] B storage guard snapshots
+[PASS] B loadout fingerprint guard
+[PASS] B expects 478
+[PASS] gate 473 valid DRAFT token
+[PASS] A baseline still 468
+[PASS] A descendant identity hardening
+[PASS] init says 478
+[PASS] description says Equipment UX
+[PASS] current runtime no raw spaced ampersand
+[PASS] lexical delimiters balanced | files=232 bad=[]
+[PASS] doc 00_LEIA_0_12_B.txt exists
+[PASS] doc README_0_12_B.txt exists
+[PASS] doc INSTRUCOES_TESTE_0_12_B.md exists
+[PASS] doc SP_ORG_0_12_B_EQUIPMENT_CAPACITY_UX.md exists
+[PASS] doc SP_ORG_0_12_ROADMAP.md exists
+[PASS] roadmap next C
+[PASS] header fine tune deferred D

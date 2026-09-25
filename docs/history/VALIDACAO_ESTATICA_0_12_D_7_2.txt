@@ -1,0 +1,26 @@
+VALIDAÇÃO ESTÁTICA — SP_ORG_Items 0.12-D.7.2
+
+Escopo: validação offline do pacote; não substitui a execução no engine Arma 3.
+
+Resumo
+- Versão: 0.12-D.7.2 / semantic 0.12.0.25 / build 0.12.0.25-d7-2-library-selection-audio-hotfix.
+- Baseline automática esperada: D.7.1 = 633/633.
+- Checkpoint novo: gates 634..638; acumulado esperado: 638/638.
+- Arquivos ativos de código/config inventariados: 269.
+- Funções Items referenciadas: 212; ausentes no CfgFunctions da missão: 0.
+
+Checks focados
+- PASS | VERSION | display/semantic/build da entrega atual
+- PASS | GATES | 634..638 / 638 cumulativo
+- PASS | PUBLISH_FOCUSED_SYNC | PUBLICAR é reavaliado no KIT_SWITCH_FOCUSED
+- PASS | CATALOG_DECOUPLED | habilitação de PUBLICAR não depende do estado do Catálogo
+- PASS | PUBLIC_COPY_AUDIO | SAVE_PUBLIC_PRIVATE chama feedback audível SUCCESS
+- PASS | DELETE_RECONCILE | próximo kit visível vira selectedKitId sem LOAD_KIT automático
+- PASS | D71_BASELINE_HARDENING | gate de versão D.7.1 aceita descendente D.7.2
+- PASS | RUNNER | runner D.7.2 possui 5 gates focados
+- PASS | REGISTRY_D72 | runner/helper registrados na missão e no config do módulo
+- PASS | FUNCTION_REGISTRY | 212 funções Items usadas; ausentes no CfgFunctions da missão: 0
+- PASS | LEXICAL_BALANCE | 269 arquivos ativos; erros lexicais: 0
+
+Observação
+- O gate definitivo continua sendo 638/638 no RPT + smoke manual descrito em INSTRUCOES_TESTE_0_12_D_7_2.md.

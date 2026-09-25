@@ -1,0 +1,68 @@
+SP_ORG_Items 0.11 CP-C — Validação estática pré-entrega
+
+IMPORTANTE: validação estática reduz risco de sintaxe/registro/escopo, mas não substitui execução no engine Arma 3.
+
+Escopo validado:
+- delimitadores/strings/comentários em SQF/HPP/CPP/EXT;
+- referências de funções Items vs arquivos reais;
+- CfgFunctions de description.ext completo;
+- registro explícito das novas funções em description.ext e config.cpp;
+- versão/build e contagem cumulativa 450;
+- gates CP-C 443..450 e herança B7 437..442;
+- correção canônica UNIFORM/VEST do fixture B7;
+- fronteiras de performance/persistência dos refreshes focais;
+- preservação estrutural de EXACT;
+- awareness/capacidade no view-model/readiness/captura;
+- domínios congelados contra CP-B.7;
+- escopo de arquivos alterados;
+- proveniência SHA-256 da CP-B.7.
+
+Resultado:
+TOTAL=47 PASS=47 FAIL=0 LEX_FILES=219
+[PASS] LEX balanced strings/comments/delimiters :: files=219; errors=[]
+[PASS] Items function refs resolve :: refs=162 files=190 missing=[]
+[PASS] description.ext registers all Items function files :: missing=[]
+[PASS] new function getUIEntryAwareness registered description.ext
+[PASS] new function getUIEntryAwareness registered config.cpp
+[PASS] new function runDelivery0_11CheckpointCTests registered description.ext
+[PASS] new function runDelivery0_11CheckpointCTests registered config.cpp
+[PASS] display version CP-C
+[PASS] semantic version 0.11.0.11
+[PASS] build CP-C
+[PASS] CP-C cumulative 450 macro
+[PASS] CP-C gates 443..450 unique :: ids=['443', '444', '445', '446', '447', '448', '449', '450']
+[PASS] B7 gate IDs 437..442 preserved :: ids=['437', '438', '439', '440', '441', '442']
+[PASS] B7 fixture Alpha canonical UNIFORM
+[PASS] B7 fixture Bravo canonical VEST
+[PASS] B7 gate 441 canonical VEST
+[PASS] B7 fixture validates create result
+[PASS] awareness excludes fnc_getCatalog;
+[PASS] awareness excludes fnc_filterCatalog;
+[PASS] awareness excludes fnc_buildCatalog;
+[PASS] awareness excludes fnc_saveStorage;
+[PASS] awareness excludes fnc_saveKit;
+[PASS] awareness excludes saveProfileNamespace
+[PASS] awareness preserves stateMode only
+[PASS] fn_refreshDraftMutationUI.sqf no refreshInterface
+[PASS] fn_refreshDraftMutationUI.sqf no persistence writes
+[PASS] fn_refreshEquipmentViewUI.sqf no refreshInterface
+[PASS] fn_refreshEquipmentViewUI.sqf no persistence writes
+[PASS] fn_refreshCatalogWindowUI.sqf no refreshInterface
+[PASS] fn_refreshCatalogWindowUI.sqf no persistence writes
+[PASS] fn_refreshKitSwitchUI.sqf no refreshInterface
+[PASS] fn_refreshKitSwitchUI.sqf no persistence writes
+[PASS] fn_refreshPhysicalTargetUI.sqf no refreshInterface
+[PASS] fn_refreshPhysicalTargetUI.sqf no persistence writes
+[PASS] view model preserves stateData
+[PASS] view model exposes Draft totalMass
+[PASS] view model exposes Equipment capacity
+[PASS] container capture exposes read-only capacity
+[PASS] readiness exposes capacity
+[PASS] frozen ServoPeregrino_Organizador_Nexus
+[PASS] frozen ServoPeregrino_Organizador_Items/functions/application
+[PASS] frozen ServoPeregrino_Organizador_Items/functions/domain
+[PASS] frozen ServoPeregrino_Organizador_Items/functions/draft
+[PASS] frozen ServoPeregrino_Organizador_Items/functions/storage
+[PASS] frozen ServoPeregrino_Organizador_Items/functions/catalog
+[PASS] changed current-side files restricted to CP-C scope :: unexpected=[]; changed=29
+[PASS] baseline B7 SHA matches known :: d228ec5aff9183c0bbc98747941073d452dcbb3ee733720d9f3d99024eea71ee

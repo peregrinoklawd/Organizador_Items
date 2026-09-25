@@ -1,0 +1,61 @@
+SP_ORG_Items 0.12-D.7.4 — Validação estática pré-entrega
+
+BASELINE / DELTA
+PASS — candidata derivada diretamente da 0.12-D.7.3 R2.
+PASS — 12 arquivos de código existentes alterados, exatamente os esperados.
+PASS — 1 arquivo de código novo: fn_runDelivery0_12CheckpointD74Tests.sqf.
+PASS — 0 arquivos de código removidos.
+PASS — 0 alterações de código inesperadas fora do delta planejado.
+
+ISOLAMENTO DE SUBSISTEMAS
+PASS — functions/application byte a byte idêntico à baseline.
+PASS — functions/library byte a byte idêntico à baseline.
+PASS — functions/storage byte a byte idêntico à baseline.
+Logo, Whole-Kit/Application Engine, Repository/bibliotecas e Storage não foram refatorados nesta entrega.
+
+SCAN LEXICAL
+- 272 arquivos .sqf/.hpp/.cpp/.ext analisados.
+PASS — 0 strings não fechadas.
+PASS — 0 comentários de bloco não fechados.
+PASS — 0 desequilíbrios de (), [] ou {} fora de strings/comentários.
+PASS — 0 ocorrências de escape C-style \" em arquivos de código.
+
+VERSIONAMENTO / REGISTRO
+PASS — displayVersion = 0.12-D.7.4.
+PASS — semanticVersion = 0.12.0.27.
+PASS — build = 0.12.0.27-d7-4-player-load-semantics-historical-gate-hardening.
+PASS — D.7.4 registrada em description.ext e config.cpp.
+PASS — 8 gates novos e alvo cumulativo 654.
+
+PLAYER LOAD SEMANTICS
+PASS — header mantém loadAbs _unit / maxSoldierLoad como autoridade da carga global.
+PASS — load _unit permanece disponível como fallback quando limite global não está disponível.
+PASS — ratio bruto e fração visual foram separados.
+PASS — apenas a largura da barra usa clamp visual em 1.
+PASS — estado acima do limite é explicitado como `100%+ · SOBRECARGA`.
+PASS — excesso e percentual bruto permanecem disponíveis no tooltip.
+PASS — tooltip informa escopo: armas, itens vinculados e conteúdo U/C/M.
+PASS — capacidade de container continua separada, usando loadAbs _container + maximumLoad.
+
+HISTORICAL GATE HARDENING
+PASS — ITEMS-0.12-502 valida o contrato atual wheel + slider contínuo.
+PASS — controles históricos ▲/▼ permanecem declarados offscreen, sem voltar à UI visível.
+PASS — ITEMS-0.12-505 valida em runtime legado oculto/offscreen + slider/tabela visíveis.
+PASS — runners D.7.1/D.7.2/D.7.3 aceitam sucessoras 0.12-D.7.x sem congelar versão intermediária.
+PASS — nenhum gate histórico foi simplesmente removido.
+
+RUNNER D.7.4
+PASS — gates 647..654 presentes.
+PASS — gate 647: registro/versionamento/contagem.
+PASS — gate 648: hardening C.4.
+PASS — gates 649/650: fórmula e apresentação da carga/sobrecarga.
+PASS — gates 651/652: smoke runtime do header e contenção da barra.
+PASS — gate 653: escopo global vs U/C/M + versionamento histórico D.7.x.
+PASS — gate 654: preservação de loadout/Repository/biblioteca/Catálogo.
+
+SOURCE HASH
+- SOURCE_TREE_SHA256_0_12_D_7_4.txt contém 246 arquivos-fonte do módulo (.sqf/.hpp/.cpp), seguindo a convenção das entregas anteriores.
+
+LIMITAÇÃO
+Este ambiente não contém o parser/runtime do Arma 3. Portanto esta validação NÃO equivale a 654/654 no jogo.
+Gate definitivo: executar a suíte no Arma 3, obter RPT sem erros de sintaxe/runtime e confirmar CUMULATIVO=654/654, seguido do smoke manual da entrega.

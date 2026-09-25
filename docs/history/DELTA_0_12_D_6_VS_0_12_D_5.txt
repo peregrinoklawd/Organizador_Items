@@ -1,0 +1,21 @@
+DELTA 0.12-D.6 vs 0.12-D.5
+
+UI
+- ghost DnD mais translúcido: background alpha 0.91 -> 0.72;
+- Kit Selecionado: labels e botões físicos reposicionados em faixas sem overlap;
+- AppActionLabel: "O que deseja fazer?" -> "O que fazer no destino?";
+- header: Operador/Unidade/Carga movidos para cluster compacto à direita, próximo ao Fechar;
+- Catálogo: controles quadrados 3121/3123 removidos da área visível (stubs off-screen); slider 3124 passa a ocupar toda a altura da lista;
+- peso player-facing: mass units (`u`) -> kg e lb via formatUIMass.
+
+TESTES
+- corrige sintaxe frágil do gate 574 do runner D.5;
+- atualiza gates históricos D.2/D.4/D.5 para não congelarem versão/posição de entregas futuras;
+- restringe ITEMS-0.8.3-314 ao intervalo real do Enter/Numpad Enter;
+- adiciona runner D.6 com gates 581..590;
+- cumulativo esperado: 590/590.
+
+MOTOR / STORAGE
+- sem alteração intencional de regras do Whole-Kit Engine;
+- sem alteração intencional de formato persistido;
+- sem alteração intencional da unidade interna de massa/capacidade.

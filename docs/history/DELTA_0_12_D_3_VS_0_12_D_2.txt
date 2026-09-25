@@ -1,0 +1,24 @@
+0.12-D.3 vs 0.12-D.2
+
+ALTERADO:
+- novo tooltip runtime para itens;
+- hover de tooltip sincronizado pelo mesmo resolver geométrico do DnD;
+- Catálogo, Kit Selecionado e Equipment publicam conteúdo player-facing para o tooltip;
+- cleanup de tooltip em refresh, início de drag, load/unload;
+- bloco de aplicação recebe as legendas "Onde aplicar o kit?" e "O que deseja fazer?";
+- tooltips dos destinos/operações foram reescritos;
+- description.ext passa a registrar explicitamente o runner D.2;
+- novo runner D.3, gates 559..566;
+- D.2 gate 551 aceita a identidade D.3 como descendente sem alterar os 558 gates históricos.
+
+PRESERVADO:
+- fn_resolveUIPointerSource.sqf;
+- fn_resolveUIPanelDropTarget.sqf;
+- fn_finalizeUIPointerDrop.sqf;
+- fn_updateUIDragVisualProxy.sqf;
+- Application Engine;
+- Storage;
+- domínio e inventário;
+- Catálogo lógico/virtualização;
+- Nexus/Foundation;
+- IDs e semântica dos gates anteriores.

@@ -1,0 +1,19 @@
+SP_ORG_Items 0.12-C.3 — Catalog Real Row Buttons + Gate Hardening
+
+Base: 0.12-C.2.
+Alvo automático: 500/500.
+
+Mudança principal:
+- Catálogo visível em CT_CONTROLS_TABLE;
+- botão real ← no começo de cada linha = adicionar 1 ao Draft;
+- botão real → no fim de cada linha = ADD físico ao Destino de Aplicação;
+- nome/ícone apenas selecionam e continuam origem de DnD;
+- lista contínua permanece virtualizada (janela de 32 linhas materializadas);
+- ListBox 3120 fica somente fora da tela para compatibilidade dos gates históricos;
+- gate 492 corrigido sem procurar macro já expandida;
+- Equipment X/Delete imediato permanece inalterado.
+
+Execute:
+SP_ORG_Items 0.12-C.3 — Catalog Real Row Buttons + Gate Hardening 500
+
+Veja INSTRUCOES_TESTE_0_12_C_3.md.

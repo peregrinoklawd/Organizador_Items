@@ -1,0 +1,12 @@
+SP_ORG_Items 0.12-B — Equipment Row Controls + Capacity UX
+
+Base integrada: 0.12-A / CP-D homologada.
+Esperado automático: 478/478.
+
+Objetivo:
+- controles físicos reais por linha no Equipment;
+- capacidade usada/total/livre mais legível;
+- preservar EXACT, VIEW físico e refreshes focais;
+- manter captura lógica ← e DnD Equipment -> Draft.
+
+Ajuste fino da barra de título permanece para 0.12-D.

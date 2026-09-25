@@ -1,0 +1,4 @@
+SP_ORG_Items 0.12-D.3 — BASELINE DE ORIGEM
+
+Arquivo: SP_ORG_Items_0_12_D_2_Header_Layout_Friendly_Language_Runner_Hardening(1).zip
+SHA-256: 26e7e8ade34c39d1f7c70ce188079734206cfce7de5a83ac6116f757127777a9

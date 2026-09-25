@@ -1,0 +1,39 @@
+SP_ORG_Items 0.12-C.5 — DELTA VS 0.12-C.4
+
+Escopo: alinhamento dos gates históricos 296/358 + limpeza da affordance fantasma em Meus Kits.
+
+ARQUIVOS DIFERENTES / NOVOS:
+Only in /mnt/data/SP_ORG_Items_0_12_C_5_Historical_Gate_Alignment_Kits_Affordance_Cleanup.VR: 00_LEIA_0_12_C_5.txt
+Only in /mnt/data/SP_ORG_Items_0_12_C_5_Historical_Gate_Alignment_Kits_Affordance_Cleanup.VR: DELTA_0_12_C_5_VS_0_12_C_4.txt
+Only in /mnt/data/SP_ORG_Items_0_12_C_5_Historical_Gate_Alignment_Kits_Affordance_Cleanup.VR: INSTRUCOES_TESTE_0_12_C_5.md
+Only in /mnt/data/SP_ORG_Items_0_12_C_5_Historical_Gate_Alignment_Kits_Affordance_Cleanup.VR: SP_ORG_0_12_C_5_HISTORICAL_GATE_KITS_CLEANUP.md
+Files SP_ORG_0_12_ROADMAP.md and SP_ORG_0_12_ROADMAP.md differ
+Files ServoPeregrino_Organizador_Items/config.cpp and ServoPeregrino_Organizador_Items/config.cpp differ
+Files ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf and ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf differ
+Files ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf and ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf differ
+Files ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointDTests.sqf and ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointDTests.sqf differ
+Only in ServoPeregrino_Organizador_Items/functions/tests: fn_runDelivery0_12CheckpointC5Tests.sqf
+Files ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9_3Tests.sqf and ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9_3Tests.sqf differ
+Files ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf and ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf differ
+Files ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIDragEvent.sqf and ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIDragEvent.sqf differ
+Files ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIEvent.sqf and ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIEvent.sqf differ
+Files ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceLoad.sqf and ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceLoad.sqf differ
+Files ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf and ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf differ
+Files ServoPeregrino_Organizador_Items/functions/ui/fn_refreshEquipmentViewUI.sqf and ServoPeregrino_Organizador_Items/functions/ui/fn_refreshEquipmentViewUI.sqf differ
+Files ServoPeregrino_Organizador_Items/functions/ui/fn_refreshInterface.sqf and ServoPeregrino_Organizador_Items/functions/ui/fn_refreshInterface.sqf differ
+Files ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalMutationUI.sqf and ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalMutationUI.sqf differ
+Files ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalTargetUI.sqf and ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalTargetUI.sqf differ
+Files ServoPeregrino_Organizador_Items/script_version.hpp and ServoPeregrino_Organizador_Items/script_version.hpp differ
+Files ServoPeregrino_Organizador_Items/ui/items_dialog.hpp and ServoPeregrino_Organizador_Items/ui/items_dialog.hpp differ
+Only in /mnt/data/SP_ORG_Items_0_12_C_5_Historical_Gate_Alignment_Kits_Affordance_Cleanup.VR: VALIDACAO_ESTATICA_0_12_C_5.txt
+Files description.ext and description.ext differ
+Files initPlayerLocal.sqf and initPlayerLocal.sqf differ
+Files initServer.sqf and initServer.sqf differ
+
+INVARIANTES:
+- Application Engine congelado.
+- Catalog Service congelado.
+- Domain/Draft/Inventory/Storage/Nexus congelados.
+- Catálogo real-row buttons e virtualização permanecem.
+- Equipment X/Delete imediato permanece.
+- Meus Kits: clique abre/seleciona; drag combina; símbolo/hot-zone lateral removido.

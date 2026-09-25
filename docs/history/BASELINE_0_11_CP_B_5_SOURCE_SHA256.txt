@@ -1,0 +1,5 @@
+Baseline funcional imediata usada para construir a CP-B.6:
+SP_ORG_Items_0_11_CP_B_5_FocusedDraftRefresh_PerfTrace_SoundRestore.zip
+SHA-256: 2b42e4f15053d6539182e3dd7102d539c58089286182d29d912579bbfae86c0f
+
+Observação: CP-B.5 teve confirmação manual do usuário de que o micro-stutter de movimentações lógicas desapareceu. A CP-B homologada 414/414 continua preservada como baseline histórica de segurança.

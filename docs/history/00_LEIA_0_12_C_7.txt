@@ -1,0 +1,16 @@
+SP_ORG_Items — 0.12-C.7
+Unified Pointer DnD + Coordinate-Safe Hit Test
+
+Esta é uma CANDIDATA de hotfix sobre a C.6 reprovada manualmente.
+
+Objetivo:
+- restaurar o gesto humano real de drag-and-drop;
+- tornar o display a autoridade do ponteiro para Catálogo, Equipment e Draft;
+- tratar MouseMoving como DELTA, nunca como posição absoluta;
+- usar getMousePosition para hover/drop em coordenadas UI;
+- permitir drop em qualquer área compatível de Kit Selecionado / Conteúdo do Equipamento;
+- manter Meus Kits no drag nativo;
+- impedir que botões de linha iniciem drag.
+
+Teste automático esperado: 530/530.
+Teste manual é obrigatório antes de homologar.

@@ -1,0 +1,6 @@
+SP_ORG_Items 0.12-D.7.2 — Library Selection & Audio Hotfix
+
+1. Copie a pasta .VR para a pasta de missões do Arma 3.
+2. Abra a missão.
+3. Execute a ação automática D.7.2 e procure 638/638 no RPT.
+4. Faça os testes manuais descritos em INSTRUCOES_TESTE_0_12_D_7_2.md.

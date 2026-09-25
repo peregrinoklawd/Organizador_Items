@@ -1,0 +1,27 @@
+SP_ORG_Items 0.12-C.2 — Delta vs 0.12-C.1
+
+ADDED	00_LEIA_0_12_C_2.txt
+ADDED	INSTRUCOES_TESTE_0_12_C_2.md
+ADDED	README_0_12_C_2.txt
+ADDED	SP_ORG_0_12_C_2_RUNNER_CATALOG_ARROW_PARITY.md
+MODIFIED	ServoPeregrino_Organizador_Items/config.cpp
+MODIFIED	ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+ADDED	ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointC2Tests.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointCTests.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9_3Tests.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIEvent.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceLoad.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/ui/fn_refreshCatalogSelectionDetails.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/ui/fn_refreshCatalogWindowUI.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/ui/fn_refreshEquipmentViewUI.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/ui/fn_refreshInterface.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalMutationUI.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalTargetUI.sqf
+MODIFIED	ServoPeregrino_Organizador_Items/script_version.hpp
+MODIFIED	ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+MODIFIED	description.ext
+MODIFIED	initPlayerLocal.sqf
+MODIFIED	initServer.sqf

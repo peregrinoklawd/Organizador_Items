@@ -1,0 +1,80 @@
+SP_ORG_Items 0.12-D.2 — VALIDAÇÃO ESTÁTICA
+
+Resultado: 76/76 PASS
+
+[PASS] Estrutura lexical de código — []
+[PASS] Referências Items resolvidas — 193/221; missing=[]
+[PASS] Version displayVersion
+[PASS] Version semanticVersion
+[PASS] Version build
+[PASS] Version gateCount
+[PASS] Version cumulative
+[PASS] D2 runner registrado
+[PASS] Ação D2 runner
+[PASS] Diagnóstico esperado 558
+[PASS] Gate 551 presente
+[PASS] Gate 552 presente
+[PASS] Gate 553 presente
+[PASS] Gate 554 presente
+[PASS] Gate 555 presente
+[PASS] Gate 556 presente
+[PASS] Gate 557 presente
+[PASS] Gate 558 presente
+[PASS] D2 base exige 550
+[PASS] D2 cumulative 558
+[PASS] Histórico ITEMS-0.6-213
+[PASS] Histórico ITEMS-0.7-234
+[PASS] Histórico ITEMS-0.8.2-304
+[PASS] Histórico ITEMS-0.8.3-310
+[PASS] Histórico ITEMS-0.9.1-347
+[PASS] Gate234 friendly
+[PASS] Gate304 sem literal antigo
+[PASS] Gate310 usa config
+[PASS] Drift restrito 0/1/2
+[PASS] Draft nonphysical contract
+[PASS] D1 gate 543 preservado
+[PASS] D1 gate 544 preservado
+[PASS] D1 gate 545 preservado
+[PASS] D1 gate 546 preservado
+[PASS] D1 gate 547 preservado
+[PASS] D1 gate 548 preservado
+[PASS] D1 gate 549 preservado
+[PASS] D1 gate 550 preservado
+[PASS] UI contém 0.12-D.2
+[PASS] UI contém Operador: -
+[PASS] UI contém Unidade: -
+[PASS] UI contém Adicionar em: —  •  Mostrand
+[PASS] UI contém Carga: -
+[PASS] UI contém ARRASTE ITENS PARA ADICIONAR
+[PASS] UI contém ARRASTE ITENS PARA ADICIONAR
+[PASS] IDCs literais sem duplicata — []
+[PASS] Header posição 0.500*safeZoneW
+[PASS] Header posição 0.645*safeZoneW
+[PASS] Header posição 0.620*safeZoneW
+[PASS] Header posição 0.758*safeZoneW
+[PASS] Status amigável Adicionar em:
+[PASS] Status amigável Mostrando:
+[PASS] DnD ativo amigável
+[PASS] DnD cancel amigável
+[PASS] Equipment ação amigável
+[PASS] Transfer to kit amigável
+[PASS] Draft row tooltip amigável
+[PASS] Frozen fn_resolveUIPointerSource.sqf
+[PASS] Frozen fn_resolveUIPanelDropTarget.sqf
+[PASS] Frozen fn_finalizeUIPointerDrop.sqf
+[PASS] Frozen fn_updateUIDragVisualProxy.sqf
+[PASS] Transfer command estrutura preservada
+[PASS] Frozen functions/application
+[PASS] Frozen functions/catalog
+[PASS] Frozen functions/domain
+[PASS] Frozen functions/draft
+[PASS] Frozen functions/inventory
+[PASS] Frozen functions/storage
+[PASS] Frozen Nexus
+[PASS] Includes locais — []
+[PASS] description D2
+[PASS] initPlayerLocal D2
+[PASS] Doc README_0_12_D_2.txt
+[PASS] Doc INSTRUCOES_TESTE_0_12_D_2.md
+[PASS] Doc SP_ORG_0_12_D_2_HEADER_FRIENDLY_UX.md
+[PASS] Doc DELTA_0_12_D_2_VS_0_12_D_1.txt

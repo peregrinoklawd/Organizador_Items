@@ -1,0 +1,28 @@
+DELTA — 0.11 CP-C vs 0.11 CP-B.7
+
+HARDENING HERDADO
+- B7 fixture Alpha: U -> UNIFORM.
+- B7 fixture Bravo: C -> VEST.
+- createItemKit/saveKit precisam ter success antes dos IDs serem usados.
+- gate 441 espera preferredTarget canônico VEST.
+- IDs históricos 437..442 preservados.
+
+CAPACITY & ITEM AWARENESS
+- novo fn_getUIEntryAwareness.sqf;
+- capturePlayerContainer publica capacity read-only;
+- getUIPhysicalReadiness publica capacidade do target resolvido;
+- view-model adiciona unitMass/totalMass/total do Draft/Equipment;
+- renderizações FULL e focais exibem awareness;
+- unidade é nativa do engine (`u`), sem equivalência falsa em kg.
+
+NOVOS GATES
+443 — massa cacheada/linha sem CONFIG_ALL scan.
+444 — EXACT preservado.
+445 — capacidade determinística/read-only.
+446 — requested/preferred/resolved + capacity.
+447 — view-model Draft awareness.
+448 — auditoria dos refreshes focais.
+449 — smoke DRAFT_FOCUSED sem FULL.
+450 — sem scan/build/loadout/storage drift.
+
+ESPERADO: 450/450.

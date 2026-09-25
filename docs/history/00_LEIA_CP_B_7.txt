@@ -1,0 +1,30 @@
+SP_ORG_Items 0.11 CP-B.7 — FOCUSED KIT SWITCH
+
+Objetivo desta candidata:
+- eliminar o refresh FULL durante LOAD_KIT;
+- preservar Catálogo e Equipment durante troca de kit;
+- atualizar somente seleção de Meus Kits, Draft e readiness física;
+- manter todos os motores/domínios anteriores congelados.
+
+Teste principal:
+SP_ORG_Items 0.11 CP-B.7 — Focused Kit Switch 442
+
+Esperado:
+- baseline CP-B.6.1 = 436/436
+- CP-B.7 = 6/6
+- FAIL = 0
+- cumulativo = 442/442
+
+Teste manual prioritário:
+1. aguarde o CONFIG_ALL ficar pronto;
+2. abra a interface;
+3. alterne rapidamente entre kits salvos;
+4. procure no RPT:
+   mode=KIT_SWITCH_FOCUSED
+   fullDelta=0
+   catalogUntouched=true
+   equipmentUntouched=true
+   equipmentRecaptureDelta=0
+5. avalie se o stutter desapareceu.
+
+Meta manual de performance: idealmente < 50 ms por troca em condições normais.

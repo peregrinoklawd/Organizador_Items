@@ -1,0 +1,27 @@
+0.12-C.8 vs 0.12-C.7
+
+ALTERADO:
+- script_version.hpp: identidade 0.12-C.8, macros do ghost e gates 531..536.
+- items_dialog.hpp: três controles visuais do ghost + header 536.
+- fn_createUIDragSnapshot.sqf: sourcePicture opcional.
+- fn_resolveUIPointerSource.sqf: captura Picture da linha materializada.
+- fn_handleUIDragEvent.sqf: encaminha Picture e atualiza proxy durante drag.
+- fn_cancelUIDrag.sqf: esconde proxy no cleanup.
+- fn_onInterfaceLoad.sqf / fn_openInterface.sqf / fn_createUIState.sqf: identidade e inicialização visual.
+- novo fn_updateUIDragVisualProxy.sqf.
+- novo fn_runDelivery0_12CheckpointC8Tests.sqf.
+- registradores de função/teste e ações de laboratório atualizados.
+
+NÃO ALTERADO:
+- Application Engine.
+- Catalog Service.
+- Domain / ItemKit / ItemEntry.
+- Draft Service.
+- Inventory/capture engine.
+- Storage/repository.
+- Nexus.
+- resolvedor de destino da C.7.
+- finalizador de drop da C.7.
+- semântica física, EXACT e Storage Guard.
+
+A C.8 é um delta visual deliberadamente pequeno sobre a C.7.

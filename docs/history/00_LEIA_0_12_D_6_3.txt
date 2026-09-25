@@ -1,0 +1,22 @@
+SP_ORG_Items 0.12-D.6.3 — Auto Draft on Drop + Header Anchor Polish
+Build: 0.12.0.21-d6-3-auto-draft-header-anchor
+
+Objetivos desta entrega:
+1) Corrigir a cadeia automática bloqueada no gate histórico 484.
+2) Permitir que DnD para Kit Selecionado crie automaticamente um novo Rascunho quando nenhum estiver aberto.
+3) Melhorar o header em ultrawide, ancorando Carga -> Operador/Unidade -> slot futuro -> Fechar a partir da borda direita.
+
+Comportamento novo:
+- Catálogo -> Kit Selecionado via drag-and-drop, sem Rascunho: cria Rascunho NEW e adiciona o item no mesmo gesto.
+- Conteúdo do Equipamento -> Kit Selecionado via drag-and-drop, sem Rascunho: idem.
+- Meus Kits -> Kit Selecionado via drag-and-drop, sem Rascunho: cria Rascunho NEW e mescla uma cópia do conteúdo; o kit salvo de origem não é alterado.
+- Se a transferência falhar depois da criação automática, o estado anterior é restaurado e não sobra Rascunho vazio fantasma.
+- Botões/setas continuam exigindo Rascunho explícito. A criação automática é conveniência exclusiva do DnD.
+
+Testes automáticos:
+- Alvo cumulativo: 610/610.
+- D.6.3 adiciona gates 603..610.
+- O gate histórico 484 foi atualizado para a copy player-facing atual ('equipamento escolhido') sem relaxar a proibição de Classe/Addon técnico na UI.
+
+Instalação:
+Copie a pasta da missão entregue para a pasta de missões usada no Arma 3, substituindo apenas a candidata anterior no ambiente de teste.

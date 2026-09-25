@@ -1,0 +1,76 @@
+code_files 249 fn_files 220 refs 192 checks 74
+001 PASS version display 0.12-D.1
+002 PASS semantic version 0.12.0.13
+003 PASS build id D1
+004 PASS D1 gate count 8
+005 PASS D1 cumulative 550
+006 PASS dialog class HeaderDivider
+007 PASS dialog idc=100
+008 PASS dialog idc=101
+009 PASS dialog idc=103
+010 PASS dialog idc=108
+011 PASS dialog idc=104
+012 PASS dialog idc=105
+013 PASS dialog idc=106
+014 PASS dialog idc=107
+015 PASS dialog idc=102
+016 PASS header operator separate
+017 PASS header refresh unit idc
+018 PASS header load percent
+019 PASS target label ANY
+020 PASS target label U
+021 PASS target label C
+022 PASS target label M
+023 PASS status uses label helper
+024 PASS status player facing
+025 PASS dialog excludes Kit Selecionado/Draft
+026 PASS dialog excludes BEST_EFFORT
+027 PASS dialog excludes REPLACE STRICT
+028 PASS dialog excludes CONTENT mutável
+029 PASS dialog excludes preferredTarget vence
+030 PASS dialog excludes VIEW atual
+031 PASS runner D1 registered config
+032 PASS runner D1 registered desc
+033 PASS test action D1
+034 PASS gate 543 present
+035 PASS gate 544 present
+036 PASS gate 545 present
+037 PASS gate 546 present
+038 PASS gate 547 present
+039 PASS gate 548 present
+040 PASS gate 549 present
+041 PASS gate 550 present
+042 PASS runner baseline 542
+043 PASS runner cumulative 550
+044 PASS description current
+045 PASS init current
+046 PASS pointer authority preserved
+047 PASS getMousePosition preserved
+048 PASS runtime ghost preserved
+049 PASS no backslash-quote escapes
+050 PASS all Items function references resolve
+051 PASS all local includes resolve :: []
+052 PASS code/config lexical balance
+053 PASS no duplicate literal positive IDC :: []
+054 PASS application frozen
+055 PASS catalog frozen
+056 PASS domain frozen
+057 PASS draft frozen
+058 PASS inventory frozen
+059 PASS storage frozen
+060 PASS integration frozen
+061 PASS runtime frozen
+062 PASS Nexus frozen
+063 PASS frozen fn_resolveUIPointerSource.sqf
+064 PASS frozen fn_resolveUIPanelDropTarget.sqf
+065 PASS frozen fn_finalizeUIPointerDrop.sqf
+066 PASS frozen fn_executeUITransferCommand.sqf
+067 PASS frozen fn_updateUIDragVisualProxy.sqf
+068 PASS doc 00_LEIA_0_12_D_1.txt
+069 PASS doc README_0_12_D_1.txt
+070 PASS doc INSTRUCOES_TESTE_0_12_D_1.md
+071 PASS doc SP_ORG_0_12_D_1_HEADER_PLAYER_FACING_POLISH.md
+072 PASS doc DELTA_0_12_D_1_VS_0_12_C_8_1.txt
+073 PASS doc ARQUIVOS_ALTERADOS_0_12_D_1.txt
+074 PASS doc SP_ORG_0_12_ROADMAP.md
+TOTAL 74 PASS=74 FAIL=0

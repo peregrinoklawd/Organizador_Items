@@ -1,0 +1,19 @@
+SP_ORG_Items 0.12-D.5 — arquivos alterados vs D.4
+
+NOVO: 00_LEIA_0_12_D_5.txt
+NOVO: ARQUIVOS_ALTERADOS_0_12_D_5.txt
+NOVO: README_0_12_D_5.txt
+NOVO: INSTRUCOES_TESTE_0_12_D_5.md
+NOVO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD5Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/config.cpp
+ALTERADO: ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10_0_7HotfixTests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD2Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD4Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_updateUIItemTooltip.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/script_version.hpp
+ALTERADO: ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+ALTERADO: description.ext
+ALTERADO: initPlayerLocal.sqf

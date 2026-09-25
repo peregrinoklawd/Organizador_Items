@@ -1,0 +1,28 @@
+SP_ORG_Items — Delta 0.11 CP-D vs CP-C
+
+MUDANÇAS FUNCIONAIS
+- Novo wheel guard do display.
+- Nova seta visual/funcional em Meus Kits para Kit -> Draft.
+- Nova seleção explícita de Equipment.
+- Novos controles físicos Equipment: -, quantidade, +, X.
+- Enter/Numpad Enter em quantidade Equipment.
+- Confirmação para Delete/quantidade 0.
+- createUIPhysicalRowCommand passa a aceitar PLUS.
+- PLUS em EXACT é materializado como DEFAULT_FULL separado.
+- REFRESH do Equipment passa de FULL para EQUIPMENT_FOCUSED.
+
+HARDENING
+- Identidade CP-C runtime deixa de usar ampersand cru em Structured Text.
+- Runner CP-C herdado mantém os mesmos gates 443..450; apenas o texto de diagnóstico troca '&' por '+'.
+- Novo runner CP-D: gates 451..460.
+
+CONGELADO VS CP-C
+- Nexus
+- Application Engine
+- Domain
+- Draft Service
+- Storage/Repository
+- Catalog Service
+- Inventory
+
+Não há mudança de schema ItemKit/Storage, nem mudança da semântica EXACT persistida.

@@ -1,0 +1,26 @@
+SP_ORG_Items 0.12 FINAL vs 0.12-D.7.4
+
+RUNTIME FUNCIONAL: PRESERVADO.
+
+Mudanças intencionais:
+- versão/display/build;
+- título visual da interface;
+- textos de inicialização/status;
+- documentação/roadmap de freeze;
+- gate 647 aceita a release 0.12 FINAL como sucessora legítima da D.7.4.
+
+Não alterado:
+- Application Engine;
+- Whole-Kit;
+- EXACT;
+- DnD/ghost;
+- Catalog runtime;
+- Equipment runtime;
+- Repository/Storage;
+- Private/Public Library runtime;
+- áudio;
+- cálculo de carga/capacidade;
+- applicationTarget/equipmentView.
+
+Dívida preservada por decisão explícita:
+- gates históricos 516/523.

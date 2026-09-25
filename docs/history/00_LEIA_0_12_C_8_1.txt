@@ -1,0 +1,30 @@
+SP_ORG_Items — 0.12-C.8.1
+Runtime Drag Ghost Fix
+
+Objetivo desta candidata:
+- preservar integralmente o DnD funcional aprovado na 0.12-C.7;
+- corrigir apenas o feedback visual de item acompanhando o mouse;
+- substituir o ghost estático da C.8 por um único controle criado em runtime/top-layer;
+- destruir o ghost em DROP/CANCEL/UNLOAD para não deixar superfície invisível;
+- validar o caminho do handler POINTER_MOVE -> ACTIVE -> ghost, não apenas chamadas diretas ao helper visual.
+
+Teste automático esperado: 542/542.
+Ação: SP_ORG_Items 0.12-C.8.1 — Runtime Drag Ghost Fix 542
+
+Validação manual obrigatória:
+1. Abrir a interface.
+2. Arrastar Catálogo -> Kit Selecionado.
+3. Arrastar Equipment -> Kit Selecionado.
+4. Arrastar linha do Draft -> Conteúdo do Equipamento.
+5. Arrastar Meus Kits -> Kit Selecionado/Equipment.
+6. Em todos os casos, confirmar que ícone/nome do item acompanham o cursor durante o gesto.
+7. Confirmar que o ghost desaparece no DROP, ao cancelar e ao fechar a interface.
+8. Confirmar que o DnD por painel inteiro continua funcionando e que botões não iniciam drag.
+
+RPT esperado durante um gesto humano:
+[DND] START ...
+[DND_GHOST] CREATE ...
+[DND_GHOST] MOVE_FIRST ...
+[DND] HOVER ...
+[DND] DROP ...
+[DND_GHOST] HIDE ...

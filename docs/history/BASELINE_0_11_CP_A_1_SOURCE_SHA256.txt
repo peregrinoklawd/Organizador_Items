@@ -1,0 +1,5 @@
+Baseline aprovada pelo usuário para 0.11 CP-B:
+SP_ORG_Items_0_11_CP_A_1_FeedbackSnapshot_Layout.zip
+SHA-256: 19ae351038b4275bdc08716b09913e0d703c2bfadade48c0fc33ba91d5a3d940
+Semantic version da baseline: 0.11.0.1
+Cumulativo aprovado: 406/406

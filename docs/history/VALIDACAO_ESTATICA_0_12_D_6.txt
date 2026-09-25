@@ -1,0 +1,26 @@
+SP_ORG_Items 0.12-D.6 — validação estática da candidata
+
+STATUS: APROVADA PARA TESTE RUNTIME NO ARMA 3
+
+Verificações executadas fora do jogo:
+- balanceamento de (), [] e {} em arquivos SQF/HPP/EXT/CPP, ignorando strings e comentários;
+- strings/blocos de comentário sem fechamento detectável: nenhum erro;
+- `formatUIMass` registrado em config.cpp e description.ext;
+- `runDelivery0_12CheckpointD6Tests` registrado em config.cpp e description.ext;
+- versão corrente: 0.12-D.6 / semantic 0.12.0.18;
+- contrato D.6: 10 gates, cumulativo 590;
+- runner D.5: gate 574 dividido em checagens independentes, removendo a expressão que gerava `Faltante )`;
+- gate 314: baseline reposicionado para o intervalo estrito do Enter/Numpad Enter;
+- Catálogo: 3121/3123 fora da tela e slider 3124 cobrindo a altura da tabela;
+- ghost runtime: alpha do fundo ajustado para 0.72;
+- tooltip normal: alpha glass 0.58 preservado;
+- superfícies principais usam `formatUIMass` para apresentação em kg/lb;
+- `fn_refreshInterface.sqf` preservado como código SQF e não contém definição acidental do diálogo.
+
+LIMITAÇÃO:
+Não é possível executar o runtime SQF/Arma 3 neste ambiente. Portanto, 590/590 NÃO é declarado como homologado aqui. Execute a suíte no jogo e valide o RPT.
+
+CHECKLIST DE CONTRATOS D.6:
+19/19 verificações textuais/estruturais aprovadas.
+Arquivos de código verificados pelo parser de delimitadores: 256.
+Erros de delimitador detectados: 0.

@@ -1,0 +1,17 @@
+0.12-D.2 vs 0.12-D.1
+
+ALTERADO:
+- header em duas linhas compactas e posições reequilibradas para ultrawide;
+- linguagem player-facing de header, footer, DnD, confirmações, tooltips e resultados;
+- gates históricos 213/234/304/310/347 endurecidos/alinhados;
+- gates D.1 543..550 modernizados para a geometria em duas linhas;
+- novo runner D.2 com gates 551..558;
+- ação principal de teste atualizada para 558 gates.
+
+PRESERVADO:
+- DnD funcional C.7;
+- runtime ghost C.8.1;
+- operações físicas e EXACT;
+- virtualização do Catálogo;
+- Storage/Nexus e contratos de domínio;
+- IDs de gates anteriores.

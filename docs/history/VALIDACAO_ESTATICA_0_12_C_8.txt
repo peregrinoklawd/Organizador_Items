@@ -1,0 +1,301 @@
+SP_ORG_Items — VALIDAÇÃO ESTÁTICA 0.12-C.8
+
+CHECKS=291 PASS=291 FAIL=0
+Operational code/config files=245
+Items function files=216
+Unique Items function refs=188
+Unresolved refs=0
+
+PASS — balance initPlayerLocal.sqf
+PASS — balance initServer.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_saveStorage.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_buildRepositoryState.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_cloneKit.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_loadStorage.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_listKits.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_injectTestStoragePayload.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_getKit.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_getRepositoryStatus.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_saveKit.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_getRepositoryKeys.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_configureRepositoryTestMode.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_deleteKit.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/storage/fn_migrateStorage.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/runtime/fn_getRuntimeStatus.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_validateItemEntrySemantic.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_validateStorageSemantic.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_deepCopy.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_createStoragePayload.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_validateItemKitSemantic.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_cloneItemKit.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_renameItemKit.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_validateItemKitStructural.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_createItemKit.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_validateItemEntryEnvironmental.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_validateItemEntryStructural.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_normalizeItemEntries.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_createItemEntry.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_validateStorageStructural.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_validateItemKitEnvironmental.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_isValidItemKitId.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/domain/fn_generateItemKitId.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_saveDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_deleteKitPreservingDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_setDraftName.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_mergeKitIntoDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_removeDraftEntry.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_setDraftPreferredTarget.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_createCaptureDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_mergeEntriesIntoDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_decrementDraftEntry.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_saveDraftAsNew.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_openCaptureDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_incrementDraftEntry.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_createNewDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_getDraftState.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_detachDraftFromPersistedKit.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_setDraftEntryQuantity.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_loadDraftFromKit.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_addEntryToDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_addCatalogItemToDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_discardDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/draft/fn_clearDraftEntries.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_captureEquipmentToDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_handleDraftQuantityKeyDown.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_handleUITransferToDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIDragEvent.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIWheel.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIKeyDown.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_refreshEquipmentViewUI.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_executeEquipmentRowAction.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_renderEquipmentRowsUI.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_getUICatalogWindow.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_scanVanillaInventorySounds.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_refreshInterface.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_createUIDragSnapshot.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_presentUIResult.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_getUIItemKitAwareness.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_getUIPhysicalReadiness.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIEvent.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_refreshDraftMutationUI.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_cancelUIDrag.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_executeEquipmentClear.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalTargetUI.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_updateUIDragVisualProxy.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalMutationUI.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_playUIFeedbackSound.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_playUIMovementSound.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_refreshHeaderUI.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_refreshCatalogSelectionDetails.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceUnload.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_escapeStructuredText.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_resolveUIPanelDropTarget.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_executeUITransferCommand.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_refreshEquipmentSelectionControls.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_handleDraftRowAction.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_renderCatalogRowsUI.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_commitEquipmentQuantityFromControl.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_resolveUIPointerSource.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_getUIState.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_getUIEntryAwareness.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_pushUIFeedback.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_handleEquipmentQuantityKeyDown.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceLoad.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_requestEquipmentRowAction.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_refreshCatalogWindowUI.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_presentLogicalMutationResult.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_buildUIViewModel.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_finalizeUIPointerDrop.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_requestDraftTransition.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_resolveUIItemMetadata.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_getUIMovementSoundProfile.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_getUIFeedbackPalette.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_refreshKitSwitchUI.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_commitDraftQuantityFromControl.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_captureEquipmentRowToDraft.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_createUIPhysicalRowCommand.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_classifyUIOutcome.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/ui/fn_getResponsiveCatalogLabels.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/catalog/fn_createCatalogItemFromConfig.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/catalog/fn_getCatalogStatus.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/catalog/fn_buildCatalog.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/catalog/fn_invalidateCatalogCache.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/catalog/fn_copyCatalogItem.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/catalog/fn_deriveCatalogCategory.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/catalog/fn_classifyContentClass.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/catalog/fn_getCatalog.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/catalog/fn_getCatalogCategories.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/catalog/fn_resolveCatalogItem.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/catalog/fn_filterCatalog.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/inventory/fn_analyzeContainerCargo.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/inventory/fn_getLoadoutFingerprint.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/inventory/fn_compareLoadoutFingerprints.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/inventory/fn_getContainerCapacityMetrics.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/inventory/fn_captureContainerContent.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/inventory/fn_resolvePlayerContainer.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/inventory/fn_capturePlayerContainers.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/inventory/fn_capturePlayerContainer.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/inventory/fn_buildMutableFingerprint.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/inventory/fn_classifyCargoClass.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/inventory/fn_getMutableContentFingerprint.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB5Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10CheckpointATests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10CheckpointDTests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointBTests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointC4Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB6Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9_3Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_8_1Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_restoreProductionRepositorySnapshot.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_findLeakedTestKits.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10_0_7HotfixTests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointC8Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointATests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointC3Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_4Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_prepareCumulativeTestRun.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointC7Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_5_1Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointC6Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointC5Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB61Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointATests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_7_2Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9_2Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_4_3Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_5Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_8Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_captureProductionRepositorySnapshot.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointBTests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointCTests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10CheckpointBTests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_cleanupLeakedTestKits.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_4_1Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_3Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10CheckpointCTests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_getDelivery0_10TestContract.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB1Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_8_3Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointCTests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointC2Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_4_2Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_6_1Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB4Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_1Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_8_2Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_6Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB3Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_7_1Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_7Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointDTests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9_1Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_classifyLeakedTestKit.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB2Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_resetRuntimeForTests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB7Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_2Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/lifecycle/fn_getBuildInfo.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_rollbackApplication.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_simulateApplicationEntries.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_executeSavedKitApplication.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_chooseApplicationTarget.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_createWholeKitApplicationPlan.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_validateApplicationPlan.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_executeApplicationPlan.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_createReplaceApplicationPlan.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_executeSingleOperation.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_mutateContainerEntry.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_executeDraftApplication.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_executeContentOperation.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_getSavedKitApplicationSource.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_createClearApplicationPlan.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_getEntryUnitMass.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_createApplicationPlan.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_acquireApplicationLock.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_captureContainerSnapshot.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_resolveApplicationTarget.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_getDraftApplicationSource.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_restoreContainerSnapshot.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_getApplicationStatus.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/application/fn_releaseApplicationLock.sqf
+PASS — balance ServoPeregrino_Organizador_Items/functions/integration/fn_validateNexus.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/diagnostics/fn_setLogLevel.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/diagnostics/fn_createDiagnostic.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/diagnostics/fn_log.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/tests/fn_runDelivery1_1Tests.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/tests/fn_resetRuntimeForTests.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/tests/fn_installTestActions.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/contracts/fn_createContract.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/contracts/fn_registerContractDefinition.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/contracts/fn_validateContract.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/capabilities/fn_listCapabilities.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/capabilities/fn_getCapability.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/capabilities/fn_hasCapability.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/capabilities/fn_registerCapability.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/capabilities/fn_unregisterCapability.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/lifecycle/fn_initialize.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/lifecycle/fn_getBuildInfo.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/events/fn_unsubscribeEvent.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/events/fn_publishEvent.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/events/fn_subscribeEvent.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/results/fn_isResult.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/functions/results/fn_createResult.sqf
+PASS — balance ServoPeregrino_Organizador_Nexus/script_version.hpp
+PASS — balance ServoPeregrino_Organizador_Items/script_version.hpp
+PASS — balance ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+PASS — balance ServoPeregrino_Organizador_Nexus/config.cpp
+PASS — balance ServoPeregrino_Organizador_Items/config.cpp
+PASS — balance description.ext
+PASS — identity DISPLAY_VERSION "0.12-C.8"
+PASS — identity SEMANTIC_VERSION "0.12.0.11"
+PASS — identity BUILD "0.12.0.11-c8-drag-visual-proxy-item-ghost"
+PASS — identity DELIVERY_0_12_C_8_CUMULATIVE_GATE_COUNT 536
+PASS — gate 531
+PASS — gate 532
+PASS — gate 533
+PASS — gate 534
+PASS — gate 535
+PASS — gate 536
+PASS — all function refs resolve
+PASS — description.ext proxy registration
+PASS — description.ext C8 registration
+PASS — ServoPeregrino_Organizador_Items/config.cpp proxy registration
+PASS — ServoPeregrino_Organizador_Items/config.cpp C8 registration
+PASS — proxy getMousePosition
+PASS — proxy ctrlEnable false
+PASS — proxy ctrlShow true
+PASS — proxy sourcePicture
+PASS — proxy sourceText
+PASS — proxy ctrlSetPosition
+PASS — proxy pure no executeUITransferCommand
+PASS — proxy pure no refreshPhysicalMutationUI
+PASS — proxy pure no refreshDraftMutationUI
+PASS — proxy pure no saveKit
+PASS — proxy pure no deleteKit
+PASS — handler retains POINTER_DOWN
+PASS — handler retains POINTER_MOVE
+PASS — handler retains MOUSE_UP
+PASS — handler retains DISPLAY_POINTER
+PASS — handler retains resolveUIPointerSource
+PASS — handler retains resolveUIPanelDropTarget
+PASS — handler retains finalizeUIPointerDrop
+PASS — handler retains updateUIDragVisualProxy
+PASS — cancel hides ghost
+PASS — ui DragGhostBg
+PASS — ui DragGhostIcon
+PASS — ui DragGhostText
+PASS — no duplicate literal positive idc
+PASS — freeze ServoPeregrino_Organizador_Items/functions/application
+PASS — freeze ServoPeregrino_Organizador_Items/functions/catalog
+PASS — freeze ServoPeregrino_Organizador_Items/functions/domain
+PASS — freeze ServoPeregrino_Organizador_Items/functions/draft
+PASS — freeze ServoPeregrino_Organizador_Items/functions/inventory
+PASS — freeze ServoPeregrino_Organizador_Items/functions/storage
+PASS — freeze ServoPeregrino_Organizador_Nexus
+
+Observação: validação estática não substitui o runtime do Arma 3. A C.8 deve fechar 536/536 e receber validação visual/manual do proxy acompanhando o mouse sem regressão da C.7.

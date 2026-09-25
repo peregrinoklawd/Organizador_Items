@@ -1,0 +1,26 @@
+SP_ORG_Items 0.12-D.7.4 — Player Load Semantics & Historical Gate Hardening
+
+BASELINE OBRIGATÓRIA
+- Derivada diretamente de 0.12-D.7.3 R2 — Automatic Test Runner Hotfix.
+- Nenhum código foi reconstruído a partir de versão antiga.
+- Whole-Kit, EXACT, DnD/ghost, Repository, Storage, biblioteca privada/pública e aplicação física permanecem herdados da baseline.
+
+ESCOPO DESTA ENTREGA
+1. Corrigir a semântica do indicador global de carga do jogador no header.
+2. Diferenciar carga global de capacidade individual de Uniforme/Colete/Mochila.
+3. Tornar sobrecarga real explícita sem permitir que a barra ultrapasse o trilho.
+4. Endurecer o gate histórico 502/505 para a navegação atual do Catálogo (wheel + slider; ▲/▼ antigos fora da tela).
+5. Tornar os gates D.7.x compatíveis com versões sucessoras da própria família D.7.
+6. Adicionar gates 647..654, total cumulativo alvo 654/654.
+
+NÃO FAZ PARTE DESTA ENTREGA
+- mudar Whole-Kit/EXACT;
+- mudar applicationTarget/equipmentView;
+- mudar DnD/ghost;
+- mudar armazenamento ou bibliotecas;
+- mudar operações físicas;
+- acrescentar novas features de gameplay.
+
+TESTE DEFINITIVO
+- Executar a suíte automática no Arma 3 e obter CUMULATIVO=654/654.
+- Depois realizar o smoke manual descrito em INSTRUCOES_TESTE_0_12_D_7_4.md.

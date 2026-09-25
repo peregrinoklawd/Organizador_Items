@@ -1,0 +1,30 @@
+SP_ORG_Items — 0.12-D.1 — Header Hierarchy + Player-Facing Polish
+
+STATUS: CANDIDATA PARA TESTE. NÃO HOMOLOGADA.
+
+Base técnica: 0.12-C.8.1.
+Observação importante: a C.8.1 ainda não havia recebido validação manual do usuário quando a D.1 foi construída. Por isso, a D.1 herda essa necessidade de validação: além do novo polish visual, confirmar novamente DnD + ghost em uso humano.
+
+Objetivo da D.1:
+- reorganizar o header em zonas independentes e legíveis no ultrawide;
+- separar Operador, Unidade e Carga;
+- centralizar o status operacional em linguagem do jogador;
+- reduzir jargão técnico em tooltips, footer e descrições;
+- preservar sem alterações os contratos funcionais de DnD, ghost, Application Engine, Storage, EXACT, Catálogo virtual e refreshes focais.
+
+AUTOMÁTICO ESPERADO:
+- C.8.1 herdada: 542/542
+- D.1: 8/8 (gates 543..550)
+- cumulativo: 550/550
+
+AÇÃO DE TESTE:
+SP_ORG_Items 0.12-D.1 — Header + UX Polish 550
+
+VALIDAÇÃO MANUAL OBRIGATÓRIA:
+- header sem sobreposição no ultrawide;
+- Operador, Unidade, Carga e barra legíveis;
+- status central com nomes completos dos destinos;
+- DnD de Catálogo/Equipment/Draft/Kits ainda funcional;
+- ghost runtime acompanhando o cursor durante drag;
+- botões do Catálogo e Equipment sem regressão;
+- X/Delete do Equipment permanece imediato.

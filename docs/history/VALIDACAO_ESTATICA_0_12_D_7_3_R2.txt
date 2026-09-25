@@ -1,0 +1,13 @@
+SP_ORG_Items 0.12-D.7.3 R2 — Validação estática
+
+Resultado local antes da entrega:
+- 265 arquivos .sqf analisados por scanner lexical de strings/comentários/delimitadores.
+- 0 strings SQF não fechadas.
+- 0 comentários de bloco não fechados.
+- 0 desequilíbrios de (), [] ou {} fora de strings/comentários.
+- 0 arquivos .sqf contendo escape C-style \".
+- Verificação semântica estática dos pontos do RPT: PASS para gates 483, 484, 604 e 643.
+- A função de Catálogo físico continua usando equipmentView e não applicationTarget dentro de _executeCatalogClassAction.
+
+Limite da validação:
+- O container não possui runtime/parser do Arma 3. O gate definitivo continua sendo a execução da suíte no Arma 3.

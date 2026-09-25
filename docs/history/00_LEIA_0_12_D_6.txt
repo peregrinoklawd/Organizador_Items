@@ -1,0 +1,15 @@
+SP_ORG_Items 0.12-D.6 — UI Cohesion + Vanilla Weight Polish
+
+Foco desta entrega:
+1) corrigir o erro de sintaxe observado no runner D.5 e endurecer o gate histórico 314 sem mascarar mutação física real;
+2) tornar o ghost de arraste mais translúcido, preservando o tooltip normal e seu bloqueio durante drag;
+3) reorganizar o bloco KIT SELECIONADO para separar claramente destino e ação física;
+4) simplificar a navegação do CATÁLOGO pela Opção A: remover da área visível os botões quadrados redundantes e manter wheel + slider contínuo;
+5) compactar Operador / Unidade / Carga no header, usando o botão Fechar como referência visual;
+6) apresentar peso ao jogador em kg e lb no padrão visual do inventário do Arma 3, mantendo as mass units internas do motor.
+
+Teste automático principal:
+SP_ORG_Items 0.12-D.6 — UI Cohesion + Vanilla Weight Polish 590
+
+Esperado no Arma 3: 590/590.
+Esta candidata recebeu validação estática fora do Arma; a homologação runtime continua dependendo do teste no jogo e do RPT.

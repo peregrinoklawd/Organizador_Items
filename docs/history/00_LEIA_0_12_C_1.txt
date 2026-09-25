@@ -1,0 +1,12 @@
+SP_ORG_Items 0.12-C.1 — Runner Syntax & Historical Gate Hardening
+
+Base funcional: 0.12-C.
+Esta candidata NÃO adiciona funcionalidades nem novos gates.
+
+Correções:
+- sintaxe ctrlTooltip nos runners 0.8.1 e 0.9.3;
+- gate histórico 425 alinhado à janela virtual moderna do Catálogo;
+- fronteiras 0.10 CP-B/CP-C e 0.12-C pré-inicializam resultados para impedir cascata de variáveis indefinidas.
+
+Alvo automático: 488/488.
+Teste manual mínimo: confirmar que X/Delete no Equipment continua imediato e que Catálogo contínuo/setas permanecem funcionais.

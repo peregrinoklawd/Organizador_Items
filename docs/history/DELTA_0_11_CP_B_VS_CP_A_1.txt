@@ -1,0 +1,25 @@
+0.11 CP-B versus baseline 0.11 CP-A.1
+
+NOVO
+- functions/ui/fn_classifyUIOutcome.sqf
+- functions/ui/fn_playUIFeedbackSound.sqf
+- functions/ui/fn_presentUIResult.sqf
+- functions/tests/fn_runDelivery0_11CheckpointBTests.sqf
+- sounds/ui_success.ogg
+- sounds/ui_partial.ogg
+- sounds/ui_failure.ogg
+- sounds/ui_rollback.ogg
+- sounds/ui_blocked.ogg
+
+ALTERADO
+- UI event/DnD: passam a usar classificação/presentação centralizada nos gestos explícitos.
+- UI State: adiciona campos de outcome e diagnóstico sonoro.
+- description.ext: registra funções, runner e CfgSounds locais.
+- labels/versionamento: CP-B / 414.
+- installTestActions: ação 414, regressão 406 e audição manual de cues.
+
+CONGELADO
+- ServoPeregrino_Organizador_Nexus completo.
+- ServoPeregrino_Organizador_Items/functions/application completo.
+- runners históricos até 0.11 CP-A.1.
+- semântica dos dois LIMPAR aprovada em CP-A.1.

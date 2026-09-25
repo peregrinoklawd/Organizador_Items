@@ -1,0 +1,33 @@
+{
+  "project": "Servo Peregrino Organizador / SP_ORG",
+  "module": "Items + Nexus",
+  "snapshot_date": "2026-09-25",
+  "nexus": {
+    "display": "1.1",
+    "semantic": "0.1.1",
+    "build": "0.1.1-dev-nexus-contract-event-foundation"
+  },
+  "items": {
+    "display": "0.13-A",
+    "semantic": "0.13.0.1",
+    "build": "0.13.0.1-a-server-authority-foundation"
+  },
+  "baseline_homologated": "0.12 FINAL — Integration Freeze (manual)",
+  "current_logic": "0.13-A — Server Authority Foundation",
+  "current_packaging": "Addon Packaging R2",
+  "current_packaging_status": "PENDING_RUNTIME_VALIDATION",
+  "mission_lab": "SP_ORG_Items_0_13_A_Multiplayer_Lab_8Slots_R3.VR",
+  "mission_lab_status": "R3 mission loads; slots validated; addon open blocked in prior run because Packaging R1 PBOs failed to open",
+  "known_test_debt": [
+    "0.12-C.6 gates 516 and 523: accepted historical automatic-test debt; manual DnD behavior passed"
+  ],
+  "next_gate": "Load Packaging R2 in Arma; confirm no Unable to open PBO; HOME/openInterface works; then execute multiplayer 0.13-A authority smoke with friends",
+  "next_feature": "0.13-B — JIP & State Reconciliation, only after 0.13-A runtime/multiplayer validation",
+  "frozen_contracts": [
+    "applicationTarget governs whole-kit apply/remove/replace; equipmentView governs direct physical actions",
+    "Whole-Kit/EXACT/rollback preserved from 0.12 FINAL",
+    "DnD broad-panel + runtime ghost preserved",
+    "Public library 0.13-A remains SESSION-scoped",
+    "Private Repository remains profileNamespace-backed and separate from public library"
+  ]
+}

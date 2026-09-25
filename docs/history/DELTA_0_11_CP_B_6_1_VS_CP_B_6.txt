@@ -1,0 +1,36 @@
+SP_ORG_Items 0.11 CP-B.6.1 vs CP-B.6
+
+ADICIONADO:
+- functions/tests/fn_runDelivery0_11CheckpointB61Tests.sqf
+- telemetria UI_PERF_KIT_SWITCH em fn_requestDraftTransition.sqf
+- documentação CP-B.6.1
+
+ALTERADO:
+- script_version.hpp: 0.11.0.9 / CP-B.6.1
+- CfgFunctions: registro do runner B61
+- fn_installTestActions.sqf: ação principal chama runner B61; status mostra KIT_SWITCH
+- fn_requestDraftTransition.sqf: somente medição de LOAD_KIT ao redor do fluxo já existente
+- labels/version strings da interface/mission
+
+RUNNER CP-B.6.1:
+- chama baseline CP-B.5 428/428;
+- aguarda build CONFIG_ALL existente antes dos gates dependentes de Catálogo;
+- faz build on-demand apenas se não houver cache nem build ativo;
+- gate 433 procura tokens exatos, evitando falso positivo com getCatalogCategories;
+- IDs históricos 429..436 preservados.
+
+CONGELADO BYTE A BYTE VS CP-B.6:
+- ServoPeregrino_Organizador_Nexus: 24/24
+- functions/application: 23/23
+- functions/draft: 21/21
+- runner CP-B.5
+- runner CP-B.6 original
+
+NÃO ALTERADO FUNCIONALMENTE:
+- EQUIPMENT_FOCUSED
+- CATALOG_FOCUSED
+- DRAFT_FOCUSED
+- Application Engine
+- Storage/Repository
+- provider de som real_bagclose
+- semântica de troca de kit (continua usando requestDraftTransition + refreshInterface FULL nesta candidata; apenas instrumentada)

@@ -1,0 +1,5 @@
+Baseline de origem da CP-C:
+SP_ORG_Items_0_11_CP_B_7_FocusedKitSwitch.zip
+SHA-256: d228ec5aff9183c0bbc98747941073d452dcbb3ee733720d9f3d99024eea71ee
+
+Observação: a implementação KIT_SWITCH_FOCUSED foi mantida; nesta CP-C somente o defeito conhecido do runner B7 (targets não canônicos) foi endurecido antes dos novos gates.

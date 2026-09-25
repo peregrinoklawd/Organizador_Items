@@ -1,0 +1,13 @@
+SP_ORG_Items 0.11 CP-B.6.1 — Deterministic Gates & Kit Switch Trace
+
+Objetivo desta candidata:
+- corrigir o runner automático dos gates 429..436 sem alterar a implementação focal da CP-B.6;
+- aguardar deterministamente o CONFIG_ALL disparado de forma assíncrona pela baseline CP-B.5;
+- corrigir o falso positivo do gate 433 (getCatalogCategories não pode ser confundido com getCatalog);
+- medir troca de kits com o Catálogo já carregado por UI_PERF_KIT_SWITCH.
+
+Versão: 0.11.0.9
+Build: 0.11.0.9-cp-b61-deterministic-gates-kit-switch-trace
+Gate esperado: 436/436, duas vezes na mesma sessão.
+
+Não homologar antes do teste no Arma 3.

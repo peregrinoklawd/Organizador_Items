@@ -1,0 +1,27 @@
+SP_ORG_Items — 0.12-D.3 — Tooltip + Action Hierarchy Recovery
+
+Esta é uma CANDIDATA, não uma baseline homologada.
+
+Objetivo desta entrega:
+1. Recuperar os tooltips dos itens perdidos após a mudança do DnD para autoridade de ponteiro no display.
+2. Fazer o tooltip usar o mesmo hit-test autoritativo do DnD, sem depender apenas do tooltip nativo do Arma 3.
+3. Preservar integralmente o DnD/ghost aprovado.
+4. Tornar o bloco de aplicação do Kit Selecionado mais claro sem mover as duas linhas de botões.
+5. Corrigir o registro do runner D.2 que apareceu como função indefinida no RPT.
+
+Mudanças visuais:
+- "Destino de aplicação" -> "Onde aplicar o kit?"
+- nova legenda "O que deseja fazer?" sobre APLICAR / REMOVER / SUBSTITUIR;
+- tooltips player-facing nos quatro destinos e nas três operações;
+- tooltip próprio de item em Catálogo, Kit Selecionado e Conteúdo do Equipamento.
+
+Teste automático principal:
+SP_ORG_Items 0.12-D.3 — Tooltip + Action Hierarchy 566
+
+Esperado:
+D.2 = 558/558
+D.3 = 8/8
+TOTAL = 566/566
+
+IMPORTANTE:
+A validação estática desta entrega foi executada fora do Arma 3. O gate real e o comportamento visual precisam ser confirmados no jogo antes de homologar.

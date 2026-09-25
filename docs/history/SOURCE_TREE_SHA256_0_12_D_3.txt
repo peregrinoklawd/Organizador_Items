@@ -1,0 +1,5 @@
+SP_ORG_Items 0.12-D.3 — SOURCE TREE SHA-256
+
+Arquivos considerados: 483
+Aggregate SHA-256: afb3fe2b2e2278f3d47fe6af8ea2db3bd71023444bbbb5de05d0207aa6543735
+Método: caminhos relativos ordenados + SHA-256 individual; exclui este arquivo e o inventário D.3.

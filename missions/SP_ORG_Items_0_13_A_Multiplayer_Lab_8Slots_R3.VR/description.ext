@@ -1,0 +1,16 @@
+author = "Claudio Malta Telhada";
+onLoadName = "SP_ORG Items 0.13-A - Multiplayer Lab 8 Slots R3";
+onLoadMission = "Laboratorio multiplayer para teste do addon SP_ORG Items com ate 8 jogadores.";
+overviewText = "Teste multiplayer da biblioteca PRIVADOS/PUBLICOS e da autoridade de servidor do SP_ORG Items 0.13-A.";
+enableDebugConsole = 1;
+disabledAI = 1;
+respawn = 3;
+respawnDelay = 2;
+respawnOnStart = -1;
+
+class Header
+{
+    gameType = COOP;
+    minPlayers = 1;
+    maxPlayers = 8;
+};

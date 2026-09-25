@@ -1,0 +1,29 @@
+SP_ORG_Items 0.11 CP-B.6 vs CP-B.5
+
+ADICIONADO:
+- functions/ui/fn_getUICatalogWindow.sqf
+- functions/ui/fn_refreshCatalogWindowUI.sqf
+- functions/ui/fn_refreshEquipmentViewUI.sqf
+- functions/tests/fn_runDelivery0_11CheckpointB6Tests.sqf
+
+ALTERADO:
+- script_version.hpp
+- description.ext / initPlayerLocal.sqf / labels da UI
+- fn_handleUIEvent.sqf
+- fn_createUIState.sqf
+- fn_onInterfaceLoad.sqf
+- fn_openInterface.sqf
+- fn_installTestActions.sqf
+- registros CfgFunctions
+
+CONGELADO BYTE A BYTE VS CP-B.5:
+- ServoPeregrino_Organizador_Nexus: 24/24
+- functions/application: 23/23
+- functions/draft: 21/21
+- runner CP-B.5: idêntico
+
+SEM ALTERAÇÃO:
+- lógica de save/storage
+- Whole-Kit transaction engine
+- som/provider real_bagclose
+- semantics APLICAR/REMOVER/SUBSTITUIR/LIMPAR

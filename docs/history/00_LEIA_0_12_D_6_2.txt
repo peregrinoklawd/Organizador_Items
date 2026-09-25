@@ -1,0 +1,28 @@
+SP_ORG - Organizador de Itens
+Entrega 0.12-D.6.2 - Equipment View Authority + APM Header Convergence
+
+OBJETIVO PRINCIPAL
+Corrigir a autoridade de destino do Drag and Drop para Conteúdo do Equipamento e consolidar o refinamento visual final da interface.
+
+CORREÇÃO CRÍTICA
+Ao arrastar um item do Catálogo para Conteúdo do Equipamento, o destino agora deve ser SEMPRE o equipamento selecionado em "Mostrar" (Uniforme/Colete/Mochila), independentemente da seleção em "Onde aplicar o kit?".
+
+EXEMPLO DE TESTE
+- Onde aplicar o kit? = UNIFORME
+- Mostrar = COLETE
+- Arrastar item do Catálogo para Conteúdo do Equipamento
+- Esperado: item adicionado ao COLETE.
+
+OUTRAS ALTERAÇÕES
+- Header reorganizado seguindo a referência visual do APM.
+- "Adicionar em" removido visualmente do header.
+- Carga no header: usado / total kg (usado lb) - percentual.
+- "Draft" substituído por "Rascunho" nos textos visíveis tratados nesta entrega.
+- Botão visual "Qualquer" ocultado; ANY permanece no contrato interno.
+- Uniforme/Colete/Mochila ocupam o seletor visível.
+- Capacidade do equipamento em uma única linha: rótulo + barra + kg.
+- Testes históricos CP-D endurecidos para evitar falhas por textos/comentários obsoletos.
+- Novo checkpoint D.6.2: gates 595-602; cumulativo esperado 602/602.
+
+IMPORTANTE
+A validação estática foi executada nesta entrega. O runtime real do Arma 3 não pode ser executado neste ambiente; portanto, a homologação final depende do teste na missão e leitura do RPT.

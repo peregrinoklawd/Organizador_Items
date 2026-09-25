@@ -1,0 +1,101 @@
+SP_ORG_Items 0.12-C.3 — Static Validation
+TOTAL=97 PASS=97 FAIL=0
+FUNCTION_FILES=207 ITEMS_REFERENCES=179 CODE_CONFIG_FILES=236 POSITIVE_IDCS=83
+
+[PASS] IDENT-01 display 0.12-C.3
+[PASS] IDENT-02 semantic 0.12.0.6
+[PASS] IDENT-03 build C3
+[PASS] IDENT-04 gate count 6
+[PASS] IDENT-05 cumulative 500
+[PASS] IDENT-06 catalog table IDC 3140
+[PASS] IDENT-07 virtual window 32
+[PASS] UI-01 CatalogTable visible
+[PASS] UI-02 CatalogList legacy offscreen
+[PASS] UI-03 legacy geometry retained
+[PASS] UI-04 left real button same Equipment family
+[PASS] UI-05 right real button same Equipment family
+[PASS] UI-06 catalog CT type 19
+[PASS] UI-07 five row controls
+[PASS] UI-08 left before picture — RowTemplate order verified separately: ToDraft -> Picture -> Name -> ToPhysical
+[PASS] UI-09 right after name
+[PASS] UI-10 table unique IDC
+[PASS] RENDER-01 ctAddRow
+[PASS] RENDER-02 left text
+[PASS] RENDER-03 right text
+[PASS] RENDER-04 button event
+[PASS] RENDER-05 class payload
+[PASS] RENDER-06 row payload
+[PASS] RENDER-07 row select
+[PASS] RENDER-08 drag start
+[PASS] RENDER-09 legacy sync
+[PASS] RENDER-10 legacy right arrow
+[PASS] EVENT-01 row button case
+[PASS] EVENT-02 row select case
+[PASS] EVENT-03 table select case
+[PASS] EVENT-04 draft origin
+[PASS] EVENT-05 physical origin
+[PASS] EVENT-06 central dispatcher
+[PASS] EVENT-07 physical target
+[PASS] EVENT-08 selection state
+[PASS] DND-01 catalog custom drag
+[PASS] DND-02 snapshot
+[PASS] DND-03 custom pointer
+[PASS] DND-04 draft drop
+[PASS] DND-05 physical drop
+[PASS] DND-06 frozen payload
+[PASS] PERF-01 focused uses renderer
+[PASS] PERF-02 full uses renderer
+[PASS] PERF-03 focused no filterCatalog
+[PASS] PERF-04 full no filterCatalog
+[PASS] PERF-05 window safeWindow
+[PASS] PERF-06 window index slice
+[PASS] PERF-07 copy only window
+[PASS] PERF-08 wheel catalog focal
+[PASS] PERF-09 wheel table 3140
+[PASS] PERF-10 external slider retained
+[PASS] EQ-01 delete direct
+[PASS] EQ-02 delete no confirmation
+[PASS] EQ-03 quantity zero confirm
+[PASS] EQ-04 only quantity zero needs confirm
+[PASS] TEST-01 C1 gate 482 preserved
+[PASS] TEST-02 C1 recognizes shared renderer
+[PASS] TEST-03 C2 gate 490 preserved
+[PASS] TEST-04 C2 recognizes shared renderer
+[PASS] TEST-05 gate 492 preserved
+[PASS] TEST-06 gate 492 no macro-name search
+[PASS] TEST-07 gate 495
+[PASS] TEST-08 gate 496
+[PASS] TEST-09 gate 497
+[PASS] TEST-10 gate 498
+[PASS] TEST-11 gate 499
+[PASS] TEST-12 gate 500
+[PASS] TEST-13 C3 baseline 494
+[PASS] TEST-14 C3 deterministic catalog state
+[PASS] TEST-15 C3 no macro search after preprocess
+[PASS] REG-01 all function files in mission CfgFunctions — 207 files
+[PASS] REG-02 renderCatalogRowsUI description
+[PASS] REG-03 C3 runner description
+[PASS] REG-04 renderCatalogRowsUI module config
+[PASS] REG-05 C3 runner module config
+[PASS] REG-06 all Items fn refs resolve — 179 refs
+[PASS] REG-07 positive IDC unique — 83 idcs
+[PASS] ACTION-01 primary C3 500
+[PASS] ACTION-02 primary calls C3
+[PASS] ACTION-03 status expects 500
+[PASS] ACTION-04 demo C3
+[PASS] ACTION-05 mission onLoad C3
+[PASS] FREEZE-01 ServoPeregrino_Organizador_Nexus
+[PASS] FREEZE-02 ServoPeregrino_Organizador_Items/functions/application
+[PASS] FREEZE-03 ServoPeregrino_Organizador_Items/functions/catalog
+[PASS] FREEZE-04 ServoPeregrino_Organizador_Items/functions/domain
+[PASS] FREEZE-05 ServoPeregrino_Organizador_Items/functions/draft
+[PASS] FREEZE-06 ServoPeregrino_Organizador_Items/functions/inventory
+[PASS] FREEZE-07 ServoPeregrino_Organizador_Items/functions/storage
+[PASS] FREEZE-X01 fn_requestEquipmentRowAction.sqf
+[PASS] FREEZE-X02 fn_executeEquipmentRowAction.sqf
+[PASS] FREEZE-X03 fn_renderEquipmentRowsUI.sqf
+[PASS] FREEZE-X04 fn_getUICatalogWindow.sqf
+[PASS] FREEZE-X05 fn_executeUITransferCommand.sqf
+[PASS] STRUCT-01 delimiters/strings/comments — 236 files
+[PASS] STRUCT-02 no stale WHOLE-KIT 494 in current UI
+[PASS] STRUCT-03 no C-style escaped quotes in SQF — Arma strings use safe tokens/doubled quotes only

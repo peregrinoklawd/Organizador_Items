@@ -1,0 +1,10 @@
+SP_ORG_Items 0.12-D.5 — Drag Tooltip + Header/Label Hotfix
+
+Foco desta entrega:
+1) impedir que o tooltip reapareça quando o jogador estiver arrastando um item sobre outro;
+2) endurecer o runner legado no gate 392 para eliminar o falso FAIL do RPT;
+3) padronizar/legibilizar a legenda "O que deseja fazer?";
+4) refinar o posicionamento do header no topo.
+
+Teste automático principal: SP_ORG_Items 0.12-D.5 — Drag Tooltip + Header/Label Hotfix 580
+Teste manual prioritário: arrastar um item passando por cima de outros sem tooltip intrusivo; conferir a legenda física; revisar o header no ultrawide.

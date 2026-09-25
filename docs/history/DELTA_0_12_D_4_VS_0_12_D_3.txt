@@ -1,0 +1,4 @@
+0.12-D.4 vs 0.12-D.3
+- tooltip passa de fundo quase opaco para translúcido (glass).
+- runner D.3 corrige string inválida do gate 562 que gerava `Faltante )` no RPT.
+- novo runner D.4 valida registro, hotfix visual e invariância.

@@ -1,0 +1,8 @@
+SP_ORG_Items 0.12-D.7.0 — Private/Public Library Foundation
+
+1. Copie esta pasta .VR para a pasta de missões do Arma 3.
+2. Abra a missão em VR.
+3. Execute a ação automática 0.12-D.7.0 e procure 627/627 no RPT.
+4. Execute os testes manuais descritos em INSTRUCOES_TESTE_0_12_D_7_0.md.
+
+A biblioteca PÚBLICOS desta entrega é propositalmente de sessão. O próximo marco deve acrescentar autoridade/persistência de servidor sem mudar o contrato de UX aqui criado.

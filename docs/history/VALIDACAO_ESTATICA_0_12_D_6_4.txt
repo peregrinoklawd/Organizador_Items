@@ -1,0 +1,28 @@
+VALIDAÇÃO ESTÁTICA — SP_ORG_Items 0.12-D.6.4
+
+Diagnóstico do RPT recebido:
+- Missão D.6.3 atual inicia às 17:57:25.
+- Único [FAIL] da execução atual: ITEMS-0.12-510 às 17:59:13.
+- 0.12-C.5 encerra em 513/514; C.6 até D.6.3 entram em FAIL-FAST por consequência.
+- O gate 510 procurava “Draft atual”; o renderer real usa “Rascunho atual”.
+- O smoke runtime 513 passou, portanto o defeito era o contrato estático histórico, não a remoção visual da affordance.
+- Não há novo “Error in expression” após o início da missão D.6.3 no trecho analisado. As mensagens de sintaxe às 17:57:03 pertencem à missão D.6.2 anterior.
+
+Validação desta candidata:
+- 260 arquivos .sqf/.hpp/.cpp/.ext verificados por scanner de delimitadores com reconhecimento de strings e comentários.
+- Resultado do scanner: 0 desequilíbrios detectados.
+- Gate histórico 510 alinhado a “Rascunho atual”.
+- D.6.3 gate 603 endurecido para descendentes 0.12-D.6.x.
+- D.6.3 gate 607 alinhado à nova paridade de seta da D.6.4 para que o histórico cumulativo não contradiga a regra atual.
+- Catálogo ← envia autoCreateDraftIfMissing=true.
+- Equipment ← envia autoCreateDraftIfMissing=true.
+- DnD também explicita o mesmo opt-in, mantendo fallback por origem DND_*.
+- Transferência lógica mantém rollback do estado anterior em falha após auto-criação.
+- Chamada lógica sem opt-in continua retornando ITEMS_UI_DRAFT_REQUIRED.
+- Runner D.6.4 registrado em description.ext e config.cpp.
+- Versão: 0.12-D.6.4.
+- Semantic version: 0.12.0.22.
+- Build: 0.12.0.22-d6-4-auto-draft-arrow-parity.
+- Novo checkpoint: 7 gates (611..617); acumulado esperado: 617/617.
+
+Atenção: a validação estática não substitui a execução no Arma 3. O runtime real deve confirmar 617/617 e os dois testes manuais das setas.

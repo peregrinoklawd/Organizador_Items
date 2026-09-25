@@ -1,0 +1,30 @@
+SP_ORG_Items 0.12-D.6.2 - arquivos de código/configuração alterados vs 0.12-D.6.1
+
+ALTERADO: ServoPeregrino_Organizador_Items/config.cpp
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointDTests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointATests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD1Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD2Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD61Tests.sqf
+NOVO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD62Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD6Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_buildUIViewModel.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_cancelUIDrag.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_finalizeUIPointerDrop.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIDragEvent.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshEquipmentViewUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshHeaderStatusUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshHeaderUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshInterface.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalMutationUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalTargetUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_renderEquipmentRowsUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_resolveUIPanelDropTarget.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/script_version.hpp
+ALTERADO: ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+ALTERADO: description.ext
+ALTERADO: initPlayerLocal.sqf
+
+Total: 26 arquivo(s) de código/configuração com delta.

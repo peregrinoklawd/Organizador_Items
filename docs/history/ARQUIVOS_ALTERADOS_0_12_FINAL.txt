@@ -1,0 +1,22 @@
+SP_ORG_Items 0.12 FINAL — arquivos alterados vs D.7.4
+
+ALTERADOS:
+- SP_ORG_0_12_ROADMAP.md
+- ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+- ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+- ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD74Tests.sqf
+- ServoPeregrino_Organizador_Items/script_version.hpp
+- ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+- description.ext
+- initPlayerLocal.sqf
+
+ADICIONADOS:
+- 00_LEIA_0_12_FINAL.txt
+- DELTA_0_12_FINAL_VS_0_12_D_7_4.txt
+- INSTRUCOES_TESTE_0_12_FINAL.md
+- KNOWN_AUTOMATED_TEST_DEBT_0_12_FINAL.md
+- SOURCE_TREE_SHA256_0_12_FINAL.txt
+- VALIDACAO_ESTATICA_0_12_FINAL.txt
+- ARQUIVOS_ALTERADOS_0_12_FINAL.txt
+
+REMOVIDOS: nenhum

@@ -1,0 +1,28 @@
+SP_ORG_Items 0.12-D.3 — arquivos alterados vs D.2
+
+NOVO: 00_LEIA_0_12_D_3.txt
+NOVO: ARQUIVOS_ALTERADOS_0_12_D_3.txt
+NOVO: BASELINE_0_12_D_2_ZIP_SHA256.txt
+NOVO: DELTA_0_12_D_3_VS_0_12_D_2.txt
+NOVO: INSTRUCOES_TESTE_0_12_D_3.md
+NOVO: INVENTARIO_SHA256_0_12_D_3.txt
+NOVO: README_0_12_D_3.txt
+NOVO: SOURCE_TREE_SHA256_0_12_D_3.txt
+NOVO: SP_ORG_0_12_D_3_TOOLTIP_ACTION_HIERARCHY.md
+ALTERADO: ServoPeregrino_Organizador_Items/config.cpp
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD2Tests.sqf
+NOVO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD3Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIDragEvent.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceLoad.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceUnload.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshDraftMutationUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshInterface.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_renderCatalogRowsUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_renderEquipmentRowsUI.sqf
+NOVO: ServoPeregrino_Organizador_Items/functions/ui/fn_updateUIItemTooltip.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/script_version.hpp
+ALTERADO: ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+NOVO: VALIDACAO_ESTATICA_0_12_D_3.txt
+ALTERADO: description.ext
+ALTERADO: initPlayerLocal.sqf

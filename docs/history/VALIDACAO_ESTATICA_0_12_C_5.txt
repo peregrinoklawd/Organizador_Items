@@ -1,0 +1,37 @@
+SP_ORG_Items 0.12-C.5 — VALIDAÇÃO ESTÁTICA
+Historical Gate Alignment + Kits Affordance Cleanup
+
+RESULTADO: 29/29 PASS | FAIL=0
+Arquivos código/config analisados: 238
+Funções Items: 209
+Referências Items distintas: 181
+
+01. [PASS] code/config files present — 238
+02. [PASS] Items fn files present — 209
+03. [PASS] balanced delimiters/strings/comments — 238 files
+04. [PASS] all Items fn registered in mission CfgFunctions — 209/209
+05. [PASS] C5 runner registered in addon config.cpp
+06. [PASS] all Items fn references resolve — 181/181
+07. [PASS] C5 gates exactly 507..514 — 507,508,509,510,511,512,513,514
+08. [PASS] C5 runner inherits C4 baseline
+09. [PASS] C5 cumulative macro is 514
+10. [PASS] dead kit-arrow runtime state/events removed
+11. [PASS] KitsList has no invisible mouse rail handlers
+12. [PASS] Kits renderer has no right-side symbol
+13. [PASS] Kits tooltip exposes only click and drag
+14. [PASS] Kit drag path preserved
+15. [PASS] KIT_SELECT still opens selected kit
+16. [PASS] compact width macro is pixel-aspect square
+17. [PASS] CatalogScrollUp uses compact W/H
+18. [PASS] CatalogScrollDown uses compact W/H
+19. [PASS] gate 296 remains real aspect-square check
+20. [PASS] gate 358 uses actual CatalogTable left button
+21. [PASS] historical runner never invokes physical catalog arrow
+22. [PASS] Nexus frozen vs C4 — 24 files
+23. [PASS] Application frozen vs C4 — 23 files
+24. [PASS] Catalog frozen vs C4 — 11 files
+25. [PASS] Domain frozen vs C4 — 17 files
+26. [PASS] Draft frozen vs C4 — 21 files
+27. [PASS] Inventory frozen vs C4 — 11 files
+28. [PASS] Storage frozen vs C4 — 13 files
+29. [PASS] runtime entry files identify C5

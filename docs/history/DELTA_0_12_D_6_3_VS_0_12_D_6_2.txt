@@ -1,0 +1,22 @@
+DELTA — 0.12-D.6.3 vs 0.12-D.6.2
+
+FUNCIONAL
+- Novo: DnD para Kit Selecionado materializa um Rascunho quando nenhum está aberto.
+- Fontes cobertas: CATALOG, EQUIPMENT e KIT.
+- A criação automática é restrita a origens DND_* (ou opção explícita autoCreateDraftOnDrop).
+- Se a transferência falhar, o estado do Rascunho anterior é restaurado.
+- Setas/botões não ganham auto-create implícito.
+
+UI
+- Header deixa posições absolutas independentes e passa a derivar Carga, Identidade, slot futuro e Fechar de uma âncora comum à direita.
+- Carga e barra compartilham X/largura.
+- Operador/Unidade compartilham X/largura e permanecem empilhados.
+- Tipografia do bloco direito foi levemente compactada para ultrawide.
+- Durante DnD, painel vazio comunica: 'SOLTE AQUI PARA CRIAR UM RASCUNHO E ADICIONAR'.
+
+TESTES
+- Gate histórico 484 aceita a copy atual 'equipamento escolhido', mantendo o bloqueio a Classe:/Addon: técnico.
+- D.6.2 gate 595 foi tornado compatível com descendentes 0.12-D.6.x.
+- D.6.2 source checks com strings internas foram normalizados para sintaxe SQF segura.
+- Novo runner D.6.3: 603..610.
+- Novo acumulado esperado: 610/610.

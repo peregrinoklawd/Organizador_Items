@@ -1,0 +1,13 @@
+0.12-D.7.4 vs 0.12-D.7.3 R2
+
+- Baseline: delta direto sobre a D.7.3 R2; nenhum rebuild a partir de versão antiga.
+- Player Load: preserva loadAbs/load/maxSoldierLoad como carga global do jogador, separada da capacidade U/C/M.
+- Sobrecarga: ratio bruto não é mascarado; barra é limitada visualmente e o header mostra `100%+ · SOBRECARGA`, com detalhe no tooltip.
+- Container Capacity: permanece loadAbs container + maximumLoad, sem mudança física.
+- C.4 gate 502/505: atualizado para o contrato atual wheel + slider, com ▲/▼ históricos fora da tela.
+- D.7.1/D.7.2/D.7.3: validação de versão passa a aceitar sucessoras 0.12-D.7.x em vez de congelar D.7.3.
+- Novo runner D.7.4: gates 647..654.
+- Cumulativo esperado: 654/654.
+- functions/application: idêntico à baseline.
+- functions/library: idêntico à baseline.
+- functions/storage: idêntico à baseline.

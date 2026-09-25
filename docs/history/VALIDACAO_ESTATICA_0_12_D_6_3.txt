@@ -1,0 +1,17 @@
+VALIDAÇÃO ESTÁTICA — SP_ORG_Items 0.12-D.6.3
+
+- 259 arquivos .sqf/.hpp/.cpp/.ext verificados por scanner de delimitadores com reconhecimento de strings e comentários.
+- Resultado do scanner: 0 desequilíbrios detectados.
+- Runner D.6.3 registrado em description.ext e config.cpp.
+- Versão: 0.12-D.6.3.
+- Semantic version: 0.12.0.21.
+- Novo checkpoint: 8 gates (603..610); acumulado esperado: 610.
+- Primeiro FAIL do RPT recebido foi identificado no histórico 0.12-C.1 gate 484; os checkpoints seguintes foram interrompidos por fail-fast.
+- Gate 484 foi alinhado à copy player-facing atual do Catálogo sem reintroduzir Classe:/Addon: na interface.
+- Transferência DRAFT recebe options do dispatcher e reconhece origens DND_*.
+- Auto-create possui restauração do estado anterior se a cópia/mescla falhar.
+- Resolução DnD físico por equipmentView da D.6.2 permanece inalterada.
+- Header usa macros de âncora derivados da borda direita e Carga/barra compartilham geometria horizontal.
+- Checks estáticos equivalentes dos gates D.6.2 595/596/597/599/600/601/602 e D.6.3 603/604/605/609 foram satisfeitos no source tree.
+
+Atenção: esta validação não substitui execução no engine. O Arma 3 não está disponível neste ambiente para confirmar os gates runtime 606/607/608/609/610 e o acumulado 610/610.

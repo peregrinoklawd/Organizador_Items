@@ -1,0 +1,21 @@
+SP_ORG_Items 0.12 FINAL — Integration Freeze
+
+BASE: 0.12-D.7.4 — Player Load Semantics & Historical Gate Hardening
+SEMANTIC VERSION: 0.12.0.28
+BUILD: 0.12.0.28-final-integration-freeze
+
+DECISÃO DE RELEASE
+- D.7.4 foi aprovada nos testes manuais.
+- Os gates automáticos históricos 516/523 podem falhar e impedir a execução dos checkpoints posteriores.
+- Essa limitação é conhecida e aceita nesta release; não foi feita alteração de runtime para satisfazer os gates.
+
+ESCOPO DA 0.12 FINAL
+- congelar a baseline funcional aprovada;
+- atualizar identidade/documentação de release;
+- preservar integralmente DnD/ghost, Whole-Kit, EXACT, Catálogo, Equipment, carga/capacidade, áudio, tooltips, biblioteca PRIVADOS/PÚBLICOS e authorities applicationTarget/equipmentView.
+
+NÃO É ESCOPO
+- novas features;
+- refatoração de Application Engine;
+- reescrita dos gates 516/523;
+- multiplayer authoritative public library (fica para 0.13).

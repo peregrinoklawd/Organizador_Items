@@ -1,0 +1,9 @@
+SP_ORG_Items 0.12-D.4 — Tooltip Glass Hotfix
+
+Foco desta entrega:
+1) retirar o fundo quase opaco do tooltip e trocar por superfície translúcida;
+2) corrigir o erro de sintaxe do runner D.3 no RPT;
+3) preservar DnD/ghost e hierarquia visual de aplicação.
+
+Teste automático principal: SP_ORG_Items 0.12-D.4 — Tooltip Glass Hotfix 572
+Teste manual prioritário: passar o mouse sobre itens nos três painéis, confirmar legibilidade com transparência e repetir DnD/ghost.

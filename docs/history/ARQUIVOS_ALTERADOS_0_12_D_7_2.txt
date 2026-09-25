@@ -1,0 +1,14 @@
+SP_ORG_Items 0.12-D.7.2 - arquivos de código/configuração alterados vs 0.12-D.7.1
+
+ALTERADO: ServoPeregrino_Organizador_Items/config.cpp
+ALTERADO: ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD71Tests.sqf
+NOVO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD72Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIEvent.sqf
+NOVO: ServoPeregrino_Organizador_Items/functions/ui/fn_reconcilePrivateKitSelectionAfterDelete.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshKitSwitchUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/script_version.hpp
+ALTERADO: description.ext
+
+Total: 10 arquivo(s) de código/configuração com delta + documentação da entrega.

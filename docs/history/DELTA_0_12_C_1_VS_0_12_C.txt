@@ -1,0 +1,22 @@
+SP_ORG_Items 0.12-C.1 vs 0.12-C — Delta de arquivos
+
+ADDED	00_LEIA_0_12_C_1.txt
+ADDED	INSTRUCOES_TESTE_0_12_C_1.md
+ADDED	SP_ORG_0_12_C_1_RUNNER_HARDENING.md
+CHANGED	ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+CHANGED	ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+CHANGED	ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10CheckpointBTests.sqf
+CHANGED	ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10CheckpointCTests.sqf
+CHANGED	ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB5Tests.sqf
+CHANGED	ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointCTests.sqf
+CHANGED	ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_8_1Tests.sqf
+CHANGED	ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9_3Tests.sqf
+CHANGED	ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf
+CHANGED	ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceLoad.sqf
+CHANGED	ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf
+CHANGED	ServoPeregrino_Organizador_Items/script_version.hpp
+CHANGED	ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+ADDED	VALIDACAO_ESTATICA_0_12_C_1.txt
+CHANGED	description.ext
+CHANGED	initPlayerLocal.sqf
+CHANGED	initServer.sqf

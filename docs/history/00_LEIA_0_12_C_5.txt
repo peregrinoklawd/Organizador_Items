@@ -1,0 +1,15 @@
+SP_ORG_Items 0.12-C.5 — Historical Gate Alignment + Kits Affordance Cleanup
+
+Base: 0.12-C.4.
+Objetivo: fechar a fase 0.12-C sem nova funcionalidade de domínio.
+
+Mudanças:
+- gates históricos 296 e 358 alinhados à UI atual;
+- gate 358 usa CatalogTable e botão real esquerdo, sem simular rail legada nem executar ação física;
+- ▲/▼ passam a ser IconButtons quadrados em pixels no ultrawide;
+- Meus Kits perde o símbolo/affordance lateral sem função e também a hot-zone correspondente;
+- clique em Meus Kits abre/seleciona; drag continua combinando no Draft;
+- Catálogo C.4, Equipment X/Delete imediato, EXACT, Storage Guard e refreshes focais preservados.
+
+Suíte: 514 gates.
+Esperado: BASE C.4=506/506, C.5=8/8, CUMULATIVO=514/514, FAIL=0.

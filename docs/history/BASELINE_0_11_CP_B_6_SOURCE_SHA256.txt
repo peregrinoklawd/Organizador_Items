@@ -1,0 +1,3 @@
+SP_ORG_Items_0_11_CP_B_6_FocusedViewCatalog_Performance.zip
+SHA-256: aab76307a515f7d2ce0413b6886249e014a25417adaf7936221e03bf03599289
+Origem: artifacts/current_candidate do handoff SP_ORG_Items_Handoff_2026-09-05_CP_B_6.

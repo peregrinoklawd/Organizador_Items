@@ -1,0 +1,9 @@
+0.12-D.7.2 vs 0.12-D.7.1
+
+- PUBLICAR: deixa de depender de um full refresh incidental; KIT_SWITCH_FOCUSED agora sincroniza o botão imediatamente.
+- Público -> Privado: cópia persistida passa a tocar confirmação sonora SUCCESS.
+- Exclusão: próximo kit visualmente selecionado também passa a ser a seleção lógica usada por EXCLUIR/PUBLICAR/DUPLICAR.
+- Exclusão: reconciliação protege o Rascunho preservado e não dispara LOAD_KIT automático.
+- Runner D.7.1 foi endurecido para aceitar a versão descendente D.7.2 sem invalidar a baseline histórica.
+- Gates novos: 634..638.
+- Cumulativo: 638/638.

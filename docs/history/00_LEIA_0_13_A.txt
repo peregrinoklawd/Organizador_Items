@@ -1,0 +1,32 @@
+SP_ORG_Items 0.13-A — Server Authority Foundation
+
+BASE: 0.12 FINAL — Integration Freeze (homologada manualmente)
+SEMANTIC VERSION: 0.13.0.1
+BUILD: 0.13.0.1-a-server-authority-foundation
+
+OBJETIVO
+- iniciar a família 0.13 sem reabrir a 0.12;
+- manter PÚBLICOS session-scoped nesta etapa;
+- tornar o servidor a autoridade exclusiva das mutações públicas em multiplayer;
+- clientes enviam snapshot, não acesso ao Repository privado;
+- servidor deriva identidade real do remetente e controla publicId/revision.
+
+PRESERVADO
+- Whole-Kit / EXACT / Application Engine;
+- DnD + ghost;
+- Catalog / Equipment;
+- Repository/Storage privado;
+- áudio, tooltips e carga;
+- applicationTarget e equipmentView independentes.
+
+NÃO É ESCOPO
+- persistência entre restart/missão;
+- reconciliação JIP;
+- ACL/moderação;
+- rate limit/retry/timeout/recovery;
+- integração Items/Weapons/Equipment/Sets.
+
+TESTES
+- novos gates 655..664;
+- a dívida histórica automática 516/523 permanece aceita por decisão do projeto;
+- o runner 0.13-A valida apenas o novo checkpoint para não ser bloqueado por falsos negativos históricos já aceitos.

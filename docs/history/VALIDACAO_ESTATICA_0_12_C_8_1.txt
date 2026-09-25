@@ -1,0 +1,81 @@
+SP_ORG_Items 0.12-C.8.1 — VALIDAÇÃO ESTÁTICA
+
+Arquivos de código/configuração: 246
+Funções Items: 217
+Referências Items encontradas: 185
+
+001 [PASS] display version
+002 [PASS] semantic version
+003 [PASS] build id
+004 [PASS] C8.1 gate count
+005 [PASS] cumulative 542
+006 [PASS] static ghost removed
+007 [PASS] runtime RscStructuredText
+008 [PASS] runtime delete
+009 [PASS] uiNamespace control handle
+010 [PASS] pass-through disabled
+011 [PASS] current mouse positioning
+012 [PASS] structured icon+name
+013 [PASS] visual markup cached
+014 [PASS] no dispatcher in proxy
+015 [PASS] no physical refresh in proxy
+016 [PASS] no draft refresh in proxy
+017 [PASS] ghost telemetry create
+018 [PASS] ghost telemetry move first
+019 [PASS] ghost telemetry hide
+020 [PASS] SHOW custom+native
+021 [PASS] MOVE live path
+022 [PASS] runner registered config
+023 [PASS] runner registered description
+024 [PASS] current test action runner
+025 [PASS] current test action 542
+026 [PASS] historical gate 531 preserved
+027 [PASS] historical gate 532 preserved
+028 [PASS] historical gate 533 preserved
+029 [PASS] historical gate 534 preserved
+030 [PASS] historical gate 535 preserved
+031 [PASS] historical gate 536 preserved
+032 [PASS] new gate 537
+033 [PASS] new gate 538
+034 [PASS] new gate 539
+035 [PASS] new gate 540
+036 [PASS] new gate 541
+037 [PASS] new gate 542
+038 [PASS] C8.1 baseline C8
+039 [PASS] handler-path gate
+040 [PASS] no direct visual helper in integration gate
+041 [PASS] no backslash quote escapes
+042 [PASS] balanced sqf/config
+043 [PASS] no duplicate literal positive IDC
+044 [PASS] runtime ghost IDC not static
+045 [PASS] all Items references have fn file
+046 [PASS] all includes resolve
+047 [PASS] description current
+048 [PASS] dialog header current
+049 [PASS] initPlayer current
+050 [PASS] initServer current
+051 [PASS] frozen ServoPeregrino_Organizador_Items/functions/application
+052 [PASS] frozen ServoPeregrino_Organizador_Items/functions/catalog
+053 [PASS] frozen ServoPeregrino_Organizador_Items/functions/domain
+054 [PASS] frozen ServoPeregrino_Organizador_Items/functions/draft
+055 [PASS] frozen ServoPeregrino_Organizador_Items/functions/inventory
+056 [PASS] frozen ServoPeregrino_Organizador_Items/functions/storage
+057 [PASS] frozen ServoPeregrino_Organizador_Items/functions/integration
+058 [PASS] frozen ServoPeregrino_Organizador_Items/functions/runtime
+059 [PASS] frozen ServoPeregrino_Organizador_Nexus
+060 [PASS] frozen fn_resolveUIPointerSource.sqf
+061 [PASS] frozen fn_resolveUIPanelDropTarget.sqf
+062 [PASS] frozen fn_finalizeUIPointerDrop.sqf
+063 [PASS] frozen fn_executeUITransferCommand.sqf
+064 [PASS] frozen fn_cancelUIDrag.sqf
+065 [PASS] doc 00_LEIA_0_12_C_8_1.txt
+066 [PASS] doc README_0_12_C_8_1.txt
+067 [PASS] doc INSTRUCOES_TESTE_0_12_C_8_1.md
+068 [PASS] doc SP_ORG_0_12_C_8_1_RUNTIME_DRAG_GHOST.md
+069 [PASS] doc DELTA_0_12_C_8_1_VS_0_12_C_8.txt
+
+TOTAL=69 PASS=69 FAIL=0
+
+VALIDAÇÃO DE EMPACOTAMENTO (pré-ZIP):
+- Inventário SHA será regenerado após este relatório.
+- A validação não substitui o smoke runtime no Arma 3; o gate manual do ghost continua obrigatório.

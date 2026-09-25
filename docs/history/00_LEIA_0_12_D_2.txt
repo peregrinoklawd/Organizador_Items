@@ -1,0 +1,21 @@
+SP_ORG_Items — 0.12-D.2 — Header Layout + Friendly Language + Runner Hardening
+
+Esta é uma CANDIDATA, não uma baseline homologada.
+
+Principais mudanças:
+1. Header em duas linhas compactas para melhor leitura em ultrawide.
+2. Operador e Unidade agrupados; Carga e barra na segunda linha.
+3. Textos, tooltips, confirmações, DnD e resultados reescritos para linguagem mais natural.
+4. Códigos técnicos permanecem no RPT/estado para diagnóstico.
+5. Gates históricos 213/234/304/310/347 alinhados/endurecidos sem renumeração.
+6. DnD, runtime ghost, Application Engine, Catálogo, EXACT, Storage e Nexus preservados.
+
+Teste automático principal:
+SP_ORG_Items 0.12-D.2 — Header + Friendly UX 558
+
+Esperado:
+D.1 = 550/550
+D.2 = 8/8
+TOTAL = 558/558
+
+Depois do automático, validar manualmente header, mensagens e DnD/ghost no ultrawide.

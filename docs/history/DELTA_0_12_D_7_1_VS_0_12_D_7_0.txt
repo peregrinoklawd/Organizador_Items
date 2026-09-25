@@ -1,0 +1,8 @@
+0.12-D.7.1 vs 0.12-D.7.0
+
+- Header Carga: remove lb da linha principal; mantém kg usado/total + percentual.
+- Public -> Private: nome da cópia passa a ser `Cópia <nome público>`.
+- Public -> Private: não troca automaticamente para PRIVADOS e não limpa a busca.
+- MEUS KITS: novo status de cabeçalho com COPIADO / PUBLICADO.
+- Gates novos: 628..633.
+- Cumulativo: 633/633.

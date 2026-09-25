@@ -1,0 +1,11 @@
+SP_ORG_Items 0.12-C.4 — Catalog Viewport Containment + Scroll UX
+
+Base: 0.12-C.3.
+Objetivo desta candidata:
+- impedir que o CatalogList legado 3120 apareça ou capture mouse fora do Catálogo;
+- eliminar a dupla rolagem visual entre CT_CONTROLS_TABLE e navegação global;
+- manter uma única barra global integrada: ▲ + thumb/slider + ▼;
+- preservar os botões reais ←/→, virtualização de 32 linhas e X/Delete imediato do Equipment.
+
+Suíte: 506 gates.
+Esperado: BASE C.3=500/500, C.4=6/6, CUMULATIVO=506/506, FAIL=0.

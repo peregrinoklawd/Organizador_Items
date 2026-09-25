@@ -1,0 +1,13 @@
+SP_ORG_Items 0.12-C.2 — Runner Completion + Catalog Arrow Parity
+
+Base: 0.12-C.1.
+Alvo automático: 494/494.
+
+Mudanças:
+- corrige gates legados 244/296/351/358 para a arquitetura corrente;
+- Catálogo mostra ← no começo da linha e → no fim;
+- ← adiciona ao Draft/Kit Selecionado;
+- → aplica fisicamente no Destino de Aplicação;
+- corpo e ícone continuam seleção pura;
+- janela virtual 120 + CATALOG_FOCUSED preservados;
+- X/Delete no Equipment continua imediato.

@@ -1,0 +1,32 @@
+SP_ORG_Items 0.12-D.1 — Arquivos alterados versus 0.12-C.8.1
+
+ALTERADOS (22):
+- ServoPeregrino_Organizador_Items/config.cpp
+- ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+- ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_buildUIViewModel.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_cancelUIDrag.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIDragEvent.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceLoad.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshCatalogWindowUI.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshDraftMutationUI.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshEquipmentViewUI.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshHeaderUI.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshInterface.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalMutationUI.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalTargetUI.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_renderCatalogRowsUI.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_renderEquipmentRowsUI.sqf
+- ServoPeregrino_Organizador_Items/script_version.hpp
+- ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+- description.ext
+- initPlayerLocal.sqf
+
+ADICIONADOS (3):
+- ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD1Tests.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_getUITargetLabel.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshHeaderStatusUI.sqf
+
+REMOVIDOS (0):

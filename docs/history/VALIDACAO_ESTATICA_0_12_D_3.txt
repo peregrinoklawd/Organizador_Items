@@ -1,0 +1,71 @@
+SP_ORG_Items 0.12-D.3 — VALIDAÇÃO ESTÁTICA
+
+Resultado: 64/64 PASS
+
+Escopo: validação lexical, registros CfgFunctions, contratos estáticos, congelamento de subsistemas e presença dos novos gates.
+Não substitui execução dentro do Arma 3.
+
+[PASS] Estrutura lexical de código — []
+[PASS] Version displayVersion
+[PASS] Version semanticVersion
+[PASS] Version build
+[PASS] D3 gateCount 8
+[PASS] D3 cumulative 566
+[PASS] description D3
+[PASS] initPlayerLocal D3
+[PASS] D2 runner registrado em description
+[PASS] D3 runner registrado em description
+[PASS] Tooltip helper registrado em description
+[PASS] D3 runner registrado em config
+[PASS] Tooltip helper registrado em config
+[PASS] Arquivos novos existem
+[PASS] Ação principal aponta D3
+[PASS] Gate 559 presente
+[PASS] Gate 560 presente
+[PASS] Gate 561 presente
+[PASS] Gate 562 presente
+[PASS] Gate 563 presente
+[PASS] Gate 564 presente
+[PASS] Gate 565 presente
+[PASS] Gate 566 presente
+[PASS] D3 base exige 558
+[PASS] D3 cumulative 566
+[PASS] D2 gate 551 aceita descendente D3
+[PASS] Tooltip usa resolver DnD
+[PASS] Tooltip runtime pass-through
+[PASS] Tooltip cleanup determinístico
+[PASS] DnD sincroniza tooltip
+[PASS] DnD esconde tooltip antes do ghost
+[PASS] Tooltip materializado — Catálogo
+[PASS] Tooltip materializado — Equipment
+[PASS] Tooltip materializado — Draft full
+[PASS] Tooltip materializado — Draft focused
+[PASS] Load limpa tooltip
+[PASS] Unload limpa tooltip
+[PASS] Legenda Onde aplicar
+[PASS] Legenda O que fazer
+[PASS] Tooltip ação: Escolher automaticamente o primeir
+[PASS] Tooltip ação: Usar o Uniforme como destino das o
+[PASS] Tooltip ação: Usar o Colete como destino das ope
+[PASS] Tooltip ação: Usar a Mochila como destino das op
+[PASS] Tooltip ação: Adicionar ao destino escolhido
+[PASS] Tooltip ação: Remover do destino escolhido
+[PASS] Tooltip ação: Deixar o destino escolhido igual a
+[PASS] IDCs literais positivos sem duplicata — []
+[PASS] Frozen fn_resolveUIPointerSource.sqf
+[PASS] Frozen fn_resolveUIPanelDropTarget.sqf
+[PASS] Frozen fn_finalizeUIPointerDrop.sqf
+[PASS] Frozen fn_updateUIDragVisualProxy.sqf
+[PASS] Frozen ServoPeregrino_Organizador_Items/functions/application
+[PASS] Frozen ServoPeregrino_Organizador_Items/functions/catalog
+[PASS] Frozen ServoPeregrino_Organizador_Items/functions/domain
+[PASS] Frozen ServoPeregrino_Organizador_Items/functions/inventory
+[PASS] Frozen ServoPeregrino_Organizador_Items/functions/storage
+[PASS] Frozen ServoPeregrino_Organizador_Nexus
+[PASS] Frozen ServoPeregrino_Organizador_Foundation
+[PASS] Includes locais resolvidos — []
+[PASS] Doc 00_LEIA_0_12_D_3.txt
+[PASS] Doc README_0_12_D_3.txt
+[PASS] Doc INSTRUCOES_TESTE_0_12_D_3.md
+[PASS] Doc DELTA_0_12_D_3_VS_0_12_D_2.txt
+[PASS] Doc SP_ORG_0_12_D_3_TOOLTIP_ACTION_HIERARCHY.md

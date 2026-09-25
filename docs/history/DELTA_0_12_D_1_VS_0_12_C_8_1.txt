@@ -1,0 +1,45 @@
+SP_ORG_Items — Delta 0.12-D.1 vs 0.12-C.8.1
+
+ESCOPO FUNCIONAL NOVO:
+Nenhum. Esta entrega é polish de interface e linguagem.
+
+ALTERAÇÕES DE UX:
+- novo HeaderDivider e maior separação visual do cabeçalho;
+- HeaderIdentity passa a exibir somente Operador;
+- novo HeaderUnit para Unidade;
+- HeaderWeightText/Bar reorganizados;
+- status central player-facing via refreshHeaderStatusUI;
+- helper getUITargetLabel para QUALQUER/UNIFORME/COLETE/MOCHILA;
+- tooltips/labels de Kit Selecionado, Catálogo e Equipment simplificados;
+- footer reescrito com labels completos e Histórico de menor contraste;
+- EXACT permanece no modelo, mas a linha visível usa estados de munição em vez do termo técnico;
+- mensagens de DnD alteradas apenas em texto, sem modificar o contrato do gesto.
+
+NOVOS ARQUIVOS DE CÓDIGO:
+- functions/ui/fn_getUITargetLabel.sqf
+- functions/ui/fn_refreshHeaderStatusUI.sqf
+- functions/tests/fn_runDelivery0_12CheckpointD1Tests.sqf
+
+TESTES:
+- gates novos 543..550;
+- baseline exigida 542/542;
+- cumulativo esperado 550/550.
+
+CONGELADOS BYTE A BYTE VS C.8.1:
+- Application Engine
+- Catalog Service
+- Domain
+- Draft Service
+- Inventory
+- Storage
+- Integration
+- Runtime
+- Nexus completo
+- resolveUIPointerSource
+- resolveUIPanelDropTarget
+- finalizeUIPointerDrop
+- executeUITransferCommand
+- updateUIDragVisualProxy
+
+OBSERVAÇÃO:
+fn_handleUIDragEvent.sqf difere apenas em strings player-facing de hover/bloqueio. A autoridade DISPLAY_POINTER, getMousePosition, threshold e fluxo de START/HOVER/DROP permanecem.

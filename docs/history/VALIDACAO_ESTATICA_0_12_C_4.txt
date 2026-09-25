@@ -1,0 +1,79 @@
+SP_ORG_Items 0.12-C.4 — Static Validation
+TOTAL=75 PASS=75 FAIL=0
+FUNCTION_FILES=208 ITEMS_REFERENCES=180 CODE_CONFIG_FILES=237 POSITIVE_IDCS=83
+
+[PASS] IDENT-01 display C4
+[PASS] IDENT-02 semantic 0.12.0.7
+[PASS] IDENT-03 build C4
+[PASS] IDENT-04 gate count 6
+[PASS] IDENT-05 cumulative 506
+[PASS] IDENT-06 window remains 32
+[PASS] UI-01 CatalogTable remains visible
+[PASS] UI-02 legacy list hard offscreen config
+[PASS] UI-03 legacy runtime hidden
+[PASS] UI-04 legacy runtime disabled
+[PASS] UI-05 legacy forced offscreen runtime
+[PASS] UI-06 renderer reasserts hidden legacy
+[PASS] UI-07 internal CT scrollbar hidden class
+[PASS] UI-08 hidden scrollbar transparent thumb
+[PASS] UI-09 integrated up button
+[PASS] UI-10 integrated down button
+[PASS] UI-11 slider visible assembly
+[PASS] UI-12 same x alignment scroll assembly
+[PASS] UI-13 no legacy list in wheel hover list
+[PASS] UI-14 wheel catalog modern only
+[PASS] UI-15 real row buttons preserved
+[PASS] SCROLL-01 absolute range focused
+[PASS] SCROLL-02 absolute position focused
+[PASS] SCROLL-03 dynamic speed focused
+[PASS] SCROLL-04 absolute range full
+[PASS] SCROLL-05 absolute position full
+[PASS] SCROLL-06 dynamic speed full
+[PASS] SCROLL-07 event clamps absolute offset
+[PASS] SCROLL-08 event derives ratio only as telemetry
+[PASS] SCROLL-09 up action step -6
+[PASS] SCROLL-10 down action step +6
+[PASS] SCROLL-11 focused enable up based offset
+[PASS] SCROLL-12 focused enable down based max
+[PASS] SCROLL-13 full enable up based offset
+[PASS] SCROLL-14 full enable down based max
+[PASS] PERF-01 focused catalog renderer
+[PASS] PERF-02 focused no filterCatalog
+[PASS] PERF-03 full no filterCatalog
+[PASS] PERF-04 wheel uses focused event
+[PASS] PERF-05 virtual window unchanged
+[PASS] BEHAV-01 Equipment delete code frozen
+[PASS] BEHAV-02 Equipment executor frozen
+[PASS] BEHAV-03 Equipment renderer frozen
+[PASS] BEHAV-04 transfer dispatcher frozen
+[PASS] TEST-501
+[PASS] TEST-502
+[PASS] TEST-503
+[PASS] TEST-504
+[PASS] TEST-505
+[PASS] TEST-506
+[PASS] TEST-BASE C3 500
+[PASS] TEST-CUMULATIVE 506
+[PASS] TEST-RUNTIME hidden legacy
+[PASS] TEST-RUNTIME scroll assembly visible
+[PASS] TEST-RUNTIME absolute offset
+[PASS] REG-01 all fn files in mission CfgFunctions
+[PASS] REG-02 C4 runner description
+[PASS] REG-03 C4 runner module config
+[PASS] REG-04 all Items fn refs resolve
+[PASS] REG-05 positive IDC unique — []
+[PASS] ACTION-01 primary C4 506
+[PASS] ACTION-02 primary calls C4
+[PASS] ACTION-03 status expects 506
+[PASS] ACTION-04 mission onLoad C4
+[PASS] ACTION-05 header C4
+[PASS] FREEZE-01 ServoPeregrino_Organizador_Nexus
+[PASS] FREEZE-02 ServoPeregrino_Organizador_Items/functions/application
+[PASS] FREEZE-03 ServoPeregrino_Organizador_Items/functions/catalog
+[PASS] FREEZE-04 ServoPeregrino_Organizador_Items/functions/domain
+[PASS] FREEZE-05 ServoPeregrino_Organizador_Items/functions/draft
+[PASS] FREEZE-06 ServoPeregrino_Organizador_Items/functions/inventory
+[PASS] FREEZE-07 ServoPeregrino_Organizador_Items/functions/storage
+[PASS] STRUCT-01 delimiters/strings/comments
+[PASS] STRUCT-02 no C-style escaped quotes in SQF
+[PASS] STRUCT-03 no stale current header 500

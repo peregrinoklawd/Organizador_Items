@@ -1,0 +1,32 @@
+0.12-C.8.1 — ARQUIVOS ALTERADOS VS 0.12-C.8
+
+ALTERADOS=15 NOVOS=8 REMOVIDOS=0
+
+[ALTERADOS]
+SP_ORG_0_12_ROADMAP.md
+ServoPeregrino_Organizador_Items/config.cpp
+ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointC8Tests.sqf
+ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf
+ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIDragEvent.sqf
+ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceLoad.sqf
+ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf
+ServoPeregrino_Organizador_Items/functions/ui/fn_updateUIDragVisualProxy.sqf
+ServoPeregrino_Organizador_Items/script_version.hpp
+ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+description.ext
+initPlayerLocal.sqf
+initServer.sqf
+
+[NOVOS]
+00_LEIA_0_12_C_8_1.txt
+BASELINE_0_12_C_8_ZIP_SHA256.txt
+DELTA_0_12_C_8_1_VS_0_12_C_8.txt
+INSTRUCOES_TESTE_0_12_C_8_1.md
+README_0_12_C_8_1.txt
+SP_ORG_0_12_C_8_1_RUNTIME_DRAG_GHOST.md
+ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointC81Tests.sqf
+VALIDACAO_ESTATICA_0_12_C_8_1.txt
+
+[REMOVIDOS]

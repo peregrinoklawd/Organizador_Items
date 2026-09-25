@@ -1,0 +1,19 @@
+0.12-D.6.4 vs 0.12-D.6.3
+
+1) Testes
+- Gate histórico 510 atualizado de “Draft atual” para “Rascunho atual”.
+- Gate D.6.3 603 endurecido para aceitar descendentes 0.12-D.6.x.
+- Gate D.6.3 607 alinhado à nova paridade de seta.
+- Novo checkpoint D.6.4: 611..617.
+
+2) Auto-Rascunho
+- DnD preservado.
+- Catálogo ← passa `autoCreateDraftIfMissing=true`.
+- Equipment ← passa `autoCreateDraftIfMissing=true`.
+- Dispatcher/transferência lógica mantém fallback DND_* e rollback do estado anterior.
+- Chamada sem opt-in continua bloqueada com ITEMS_UI_DRAFT_REQUIRED.
+
+3) Versão
+- displayVersion 0.12-D.6.4
+- semanticVersion 0.12.0.22
+- build 0.12.0.22-d6-4-auto-draft-arrow-parity

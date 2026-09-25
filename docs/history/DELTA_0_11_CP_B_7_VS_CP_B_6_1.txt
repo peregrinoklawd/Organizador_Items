@@ -1,0 +1,19 @@
+SP_ORG_Items 0.11 CP-B.7 — Delta vs CP-B.6.1
+
+Changed source files: 10
+CHANGED  ServoPeregrino_Organizador_Items/config.cpp
+CHANGED  ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+CHANGED  ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf
+CHANGED  ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceLoad.sqf
+CHANGED  ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf
+CHANGED  ServoPeregrino_Organizador_Items/functions/ui/fn_requestDraftTransition.sqf
+CHANGED  ServoPeregrino_Organizador_Items/script_version.hpp
+CHANGED  ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+CHANGED  description.ext
+CHANGED  initPlayerLocal.sqf
+
+Added source files: 2
+ADDED    ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB7Tests.sqf
+ADDED    ServoPeregrino_Organizador_Items/functions/ui/fn_refreshKitSwitchUI.sqf
+
+Removed source files: 0

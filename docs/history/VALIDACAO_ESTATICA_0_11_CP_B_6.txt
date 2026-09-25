@@ -1,0 +1,504 @@
+SP_ORG_Items 0.11 CP-B.6 — Static Validation
+TOTAL=501 PASS=501 FAIL=0
+
+[PASS] LEX ServoPeregrino_Organizador_Items/config.cpp
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_acquireApplicationLock.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_captureContainerSnapshot.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_chooseApplicationTarget.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_createApplicationPlan.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_createClearApplicationPlan.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_createReplaceApplicationPlan.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_createWholeKitApplicationPlan.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_executeApplicationPlan.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_executeContentOperation.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_executeDraftApplication.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_executeSavedKitApplication.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_executeSingleOperation.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_getApplicationStatus.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_getDraftApplicationSource.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_getEntryUnitMass.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_getSavedKitApplicationSource.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_mutateContainerEntry.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_releaseApplicationLock.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_resolveApplicationTarget.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_restoreContainerSnapshot.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_rollbackApplication.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_simulateApplicationEntries.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/application/fn_validateApplicationPlan.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/catalog/fn_buildCatalog.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/catalog/fn_classifyContentClass.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/catalog/fn_copyCatalogItem.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/catalog/fn_createCatalogItemFromConfig.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/catalog/fn_deriveCatalogCategory.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/catalog/fn_filterCatalog.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/catalog/fn_getCatalog.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/catalog/fn_getCatalogCategories.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/catalog/fn_getCatalogStatus.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/catalog/fn_invalidateCatalogCache.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/catalog/fn_resolveCatalogItem.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_cloneItemKit.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_createItemEntry.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_createItemKit.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_createStoragePayload.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_deepCopy.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_generateItemKitId.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_isValidItemKitId.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_normalizeItemEntries.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_renameItemKit.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_validateItemEntryEnvironmental.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_validateItemEntrySemantic.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_validateItemEntryStructural.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_validateItemKitEnvironmental.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_validateItemKitSemantic.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_validateItemKitStructural.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_validateStorageSemantic.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/domain/fn_validateStorageStructural.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_addCatalogItemToDraft.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_addEntryToDraft.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_clearDraftEntries.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_createCaptureDraft.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_createNewDraft.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_decrementDraftEntry.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_deleteKitPreservingDraft.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_detachDraftFromPersistedKit.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_discardDraft.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_getDraftState.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_incrementDraftEntry.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_loadDraftFromKit.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_mergeEntriesIntoDraft.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_mergeKitIntoDraft.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_openCaptureDraft.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_removeDraftEntry.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_saveDraft.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_saveDraftAsNew.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_setDraftEntryQuantity.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_setDraftName.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/draft/fn_setDraftPreferredTarget.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/integration/fn_validateNexus.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/inventory/fn_analyzeContainerCargo.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/inventory/fn_buildMutableFingerprint.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/inventory/fn_captureContainerContent.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/inventory/fn_capturePlayerContainer.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/inventory/fn_capturePlayerContainers.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/inventory/fn_classifyCargoClass.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/inventory/fn_compareLoadoutFingerprints.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/inventory/fn_getContainerCapacityMetrics.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/inventory/fn_getLoadoutFingerprint.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/inventory/fn_getMutableContentFingerprint.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/inventory/fn_resolvePlayerContainer.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/lifecycle/fn_getBuildInfo.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/runtime/fn_getRuntimeStatus.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_buildRepositoryState.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_cloneKit.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_configureRepositoryTestMode.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_deleteKit.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_getKit.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_getRepositoryKeys.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_getRepositoryStatus.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_injectTestStoragePayload.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_listKits.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_loadStorage.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_migrateStorage.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_saveKit.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/storage/fn_saveStorage.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_captureProductionRepositorySnapshot.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_classifyLeakedTestKit.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_cleanupLeakedTestKits.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_findLeakedTestKits.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_getDelivery0_10TestContract.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_prepareCumulativeTestRun.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_resetRuntimeForTests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_restoreProductionRepositorySnapshot.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10CheckpointATests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10CheckpointBTests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10CheckpointCTests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10CheckpointDTests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_10_0_7HotfixTests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointATests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB1Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB2Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB3Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB4Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB5Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB6Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointBTests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_1Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_2Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_3Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_4Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_4_1Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_4_2Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_4_3Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_5Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_5_1Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_6Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_6_1Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_7Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_7_1Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_7_2Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_8Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_8_1Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_8_2Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_8_3Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9_1Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9_2Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9_3Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_buildUIViewModel.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_cancelUIDrag.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_captureEquipmentToDraft.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_classifyUIOutcome.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_commitDraftQuantityFromControl.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_createUIDragSnapshot.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_createUIPhysicalRowCommand.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_escapeStructuredText.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_executeEquipmentClear.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_executeUITransferCommand.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_getResponsiveCatalogLabels.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_getUICatalogWindow.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_getUIFeedbackPalette.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_getUIMovementSoundProfile.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_getUIPhysicalReadiness.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_getUIState.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_handleDraftQuantityKeyDown.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_handleDraftRowAction.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIDragEvent.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIEvent.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIKeyDown.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_handleUITransferToDraft.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceLoad.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceUnload.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_playUIFeedbackSound.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_playUIMovementSound.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_presentLogicalMutationResult.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_presentUIResult.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_pushUIFeedback.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_refreshCatalogSelectionDetails.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_refreshCatalogWindowUI.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_refreshDraftMutationUI.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_refreshEquipmentViewUI.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_refreshInterface.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalMutationUI.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalTargetUI.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_requestDraftTransition.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_resolveUIItemMetadata.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/functions/ui/fn_scanVanillaInventorySounds.sqf
+[PASS] LEX ServoPeregrino_Organizador_Items/script_version.hpp
+[PASS] LEX ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+[PASS] LEX ServoPeregrino_Organizador_Nexus/config.cpp
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/capabilities/fn_getCapability.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/capabilities/fn_hasCapability.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/capabilities/fn_listCapabilities.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/capabilities/fn_registerCapability.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/capabilities/fn_unregisterCapability.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/contracts/fn_createContract.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/contracts/fn_registerContractDefinition.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/contracts/fn_validateContract.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/diagnostics/fn_createDiagnostic.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/diagnostics/fn_log.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/diagnostics/fn_setLogLevel.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/events/fn_publishEvent.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/events/fn_subscribeEvent.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/events/fn_unsubscribeEvent.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/lifecycle/fn_getBuildInfo.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/lifecycle/fn_initialize.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/results/fn_createResult.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/results/fn_isResult.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/tests/fn_installTestActions.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/tests/fn_resetRuntimeForTests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/functions/tests/fn_runDelivery1_1Tests.sqf
+[PASS] LEX ServoPeregrino_Organizador_Nexus/script_version.hpp
+[PASS] LEX description.ext
+[PASS] LEX initPlayerLocal.sqf
+[PASS] LEX initServer.sqf
+[PASS] FREEZE NEXUS $PBOPREFIX$
+[PASS] FREEZE NEXUS config.cpp
+[PASS] FREEZE NEXUS functions/capabilities/fn_getCapability.sqf
+[PASS] FREEZE NEXUS functions/capabilities/fn_hasCapability.sqf
+[PASS] FREEZE NEXUS functions/capabilities/fn_listCapabilities.sqf
+[PASS] FREEZE NEXUS functions/capabilities/fn_registerCapability.sqf
+[PASS] FREEZE NEXUS functions/capabilities/fn_unregisterCapability.sqf
+[PASS] FREEZE NEXUS functions/contracts/fn_createContract.sqf
+[PASS] FREEZE NEXUS functions/contracts/fn_registerContractDefinition.sqf
+[PASS] FREEZE NEXUS functions/contracts/fn_validateContract.sqf
+[PASS] FREEZE NEXUS functions/diagnostics/fn_createDiagnostic.sqf
+[PASS] FREEZE NEXUS functions/diagnostics/fn_log.sqf
+[PASS] FREEZE NEXUS functions/diagnostics/fn_setLogLevel.sqf
+[PASS] FREEZE NEXUS functions/events/fn_publishEvent.sqf
+[PASS] FREEZE NEXUS functions/events/fn_subscribeEvent.sqf
+[PASS] FREEZE NEXUS functions/events/fn_unsubscribeEvent.sqf
+[PASS] FREEZE NEXUS functions/lifecycle/fn_getBuildInfo.sqf
+[PASS] FREEZE NEXUS functions/lifecycle/fn_initialize.sqf
+[PASS] FREEZE NEXUS functions/results/fn_createResult.sqf
+[PASS] FREEZE NEXUS functions/results/fn_isResult.sqf
+[PASS] FREEZE NEXUS functions/tests/fn_installTestActions.sqf
+[PASS] FREEZE NEXUS functions/tests/fn_resetRuntimeForTests.sqf
+[PASS] FREEZE NEXUS functions/tests/fn_runDelivery1_1Tests.sqf
+[PASS] FREEZE NEXUS script_version.hpp
+[PASS] FREEZE APPLICATION fn_acquireApplicationLock.sqf
+[PASS] FREEZE APPLICATION fn_captureContainerSnapshot.sqf
+[PASS] FREEZE APPLICATION fn_chooseApplicationTarget.sqf
+[PASS] FREEZE APPLICATION fn_createApplicationPlan.sqf
+[PASS] FREEZE APPLICATION fn_createClearApplicationPlan.sqf
+[PASS] FREEZE APPLICATION fn_createReplaceApplicationPlan.sqf
+[PASS] FREEZE APPLICATION fn_createWholeKitApplicationPlan.sqf
+[PASS] FREEZE APPLICATION fn_executeApplicationPlan.sqf
+[PASS] FREEZE APPLICATION fn_executeContentOperation.sqf
+[PASS] FREEZE APPLICATION fn_executeDraftApplication.sqf
+[PASS] FREEZE APPLICATION fn_executeSavedKitApplication.sqf
+[PASS] FREEZE APPLICATION fn_executeSingleOperation.sqf
+[PASS] FREEZE APPLICATION fn_getApplicationStatus.sqf
+[PASS] FREEZE APPLICATION fn_getDraftApplicationSource.sqf
+[PASS] FREEZE APPLICATION fn_getEntryUnitMass.sqf
+[PASS] FREEZE APPLICATION fn_getSavedKitApplicationSource.sqf
+[PASS] FREEZE APPLICATION fn_mutateContainerEntry.sqf
+[PASS] FREEZE APPLICATION fn_releaseApplicationLock.sqf
+[PASS] FREEZE APPLICATION fn_resolveApplicationTarget.sqf
+[PASS] FREEZE APPLICATION fn_restoreContainerSnapshot.sqf
+[PASS] FREEZE APPLICATION fn_rollbackApplication.sqf
+[PASS] FREEZE APPLICATION fn_simulateApplicationEntries.sqf
+[PASS] FREEZE APPLICATION fn_validateApplicationPlan.sqf
+[PASS] FREEZE DRAFT fn_addCatalogItemToDraft.sqf
+[PASS] FREEZE DRAFT fn_addEntryToDraft.sqf
+[PASS] FREEZE DRAFT fn_clearDraftEntries.sqf
+[PASS] FREEZE DRAFT fn_createCaptureDraft.sqf
+[PASS] FREEZE DRAFT fn_createNewDraft.sqf
+[PASS] FREEZE DRAFT fn_decrementDraftEntry.sqf
+[PASS] FREEZE DRAFT fn_deleteKitPreservingDraft.sqf
+[PASS] FREEZE DRAFT fn_detachDraftFromPersistedKit.sqf
+[PASS] FREEZE DRAFT fn_discardDraft.sqf
+[PASS] FREEZE DRAFT fn_getDraftState.sqf
+[PASS] FREEZE DRAFT fn_incrementDraftEntry.sqf
+[PASS] FREEZE DRAFT fn_loadDraftFromKit.sqf
+[PASS] FREEZE DRAFT fn_mergeEntriesIntoDraft.sqf
+[PASS] FREEZE DRAFT fn_mergeKitIntoDraft.sqf
+[PASS] FREEZE DRAFT fn_openCaptureDraft.sqf
+[PASS] FREEZE DRAFT fn_removeDraftEntry.sqf
+[PASS] FREEZE DRAFT fn_saveDraft.sqf
+[PASS] FREEZE DRAFT fn_saveDraftAsNew.sqf
+[PASS] FREEZE DRAFT fn_setDraftEntryQuantity.sqf
+[PASS] FREEZE DRAFT fn_setDraftName.sqf
+[PASS] FREEZE DRAFT fn_setDraftPreferredTarget.sqf
+[PASS] FREEZE B5 RUNNER
+[PASS] EXISTS getUICatalogWindow
+[PASS] REGISTER getUICatalogWindow
+[PASS] EXISTS refreshCatalogWindowUI
+[PASS] REGISTER refreshCatalogWindowUI
+[PASS] EXISTS refreshEquipmentViewUI
+[PASS] REGISTER refreshEquipmentViewUI
+[PASS] EXISTS runDelivery0_11CheckpointB6Tests
+[PASS] REGISTER runDelivery0_11CheckpointB6Tests
+[PASS] CALL RESOLVE acquireApplicationLock
+[PASS] CALL RESOLVE addCatalogItemToDraft
+[PASS] CALL RESOLVE addEntryToDraft
+[PASS] CALL RESOLVE analyzeContainerCargo
+[PASS] CALL RESOLVE buildCatalog
+[PASS] CALL RESOLVE buildMutableFingerprint
+[PASS] CALL RESOLVE buildRepositoryState
+[PASS] CALL RESOLVE buildUIViewModel
+[PASS] CALL RESOLVE cancelUIDrag
+[PASS] CALL RESOLVE captureContainerContent
+[PASS] CALL RESOLVE captureContainerSnapshot
+[PASS] CALL RESOLVE captureEquipmentToDraft
+[PASS] CALL RESOLVE capturePlayerContainer
+[PASS] CALL RESOLVE capturePlayerContainers
+[PASS] CALL RESOLVE captureProductionRepositorySnapshot
+[PASS] CALL RESOLVE chooseApplicationTarget
+[PASS] CALL RESOLVE classifyCargoClass
+[PASS] CALL RESOLVE classifyContentClass
+[PASS] CALL RESOLVE classifyLeakedTestKit
+[PASS] CALL RESOLVE classifyUIOutcome
+[PASS] CALL RESOLVE cleanupLeakedTestKits
+[PASS] CALL RESOLVE clearDraftEntries
+[PASS] CALL RESOLVE cloneItemKit
+[PASS] CALL RESOLVE cloneKit
+[PASS] CALL RESOLVE commitDraftQuantityFromControl
+[PASS] CALL RESOLVE compareLoadoutFingerprints
+[PASS] CALL RESOLVE configureRepositoryTestMode
+[PASS] CALL RESOLVE copyCatalogItem
+[PASS] CALL RESOLVE createApplicationPlan
+[PASS] CALL RESOLVE createCaptureDraft
+[PASS] CALL RESOLVE createCatalogItemFromConfig
+[PASS] CALL RESOLVE createClearApplicationPlan
+[PASS] CALL RESOLVE createItemEntry
+[PASS] CALL RESOLVE createItemKit
+[PASS] CALL RESOLVE createNewDraft
+[PASS] CALL RESOLVE createReplaceApplicationPlan
+[PASS] CALL RESOLVE createStoragePayload
+[PASS] CALL RESOLVE createUIDragSnapshot
+[PASS] CALL RESOLVE createUIPhysicalRowCommand
+[PASS] CALL RESOLVE createUIState
+[PASS] CALL RESOLVE createWholeKitApplicationPlan
+[PASS] CALL RESOLVE decrementDraftEntry
+[PASS] CALL RESOLVE deepCopy
+[PASS] CALL RESOLVE deleteKit
+[PASS] CALL RESOLVE deleteKitPreservingDraft
+[PASS] CALL RESOLVE deriveCatalogCategory
+[PASS] CALL RESOLVE detachDraftFromPersistedKit
+[PASS] CALL RESOLVE discardDraft
+[PASS] CALL RESOLVE escapeStructuredText
+[PASS] CALL RESOLVE executeApplicationPlan
+[PASS] CALL RESOLVE executeContentOperation
+[PASS] CALL RESOLVE executeDraftApplication
+[PASS] CALL RESOLVE executeEquipmentClear
+[PASS] CALL RESOLVE executeSavedKitApplication
+[PASS] CALL RESOLVE executeUITransferCommand
+[PASS] CALL RESOLVE filterCatalog
+[PASS] CALL RESOLVE findLeakedTestKits
+[PASS] CALL RESOLVE generateItemKitId
+[PASS] CALL RESOLVE getApplicationStatus
+[PASS] CALL RESOLVE getBuildInfo
+[PASS] CALL RESOLVE getCatalog
+[PASS] CALL RESOLVE getCatalogCategories
+[PASS] CALL RESOLVE getCatalogStatus
+[PASS] CALL RESOLVE getContainerCapacityMetrics
+[PASS] CALL RESOLVE getDelivery0_10TestContract
+[PASS] CALL RESOLVE getDraftApplicationSource
+[PASS] CALL RESOLVE getDraftState
+[PASS] CALL RESOLVE getEntryUnitMass
+[PASS] CALL RESOLVE getKit
+[PASS] CALL RESOLVE getLoadoutFingerprint
+[PASS] CALL RESOLVE getMutableContentFingerprint
+[PASS] CALL RESOLVE getRepositoryKeys
+[PASS] CALL RESOLVE getRepositoryStatus
+[PASS] CALL RESOLVE getResponsiveCatalogLabels
+[PASS] CALL RESOLVE getRuntimeStatus
+[PASS] CALL RESOLVE getSavedKitApplicationSource
+[PASS] CALL RESOLVE getUICatalogWindow
+[PASS] CALL RESOLVE getUIFeedbackPalette
+[PASS] CALL RESOLVE getUIMovementSoundProfile
+[PASS] CALL RESOLVE getUIPhysicalReadiness
+[PASS] CALL RESOLVE getUIState
+[PASS] CALL RESOLVE handleDraftQuantityKeyDown
+[PASS] CALL RESOLVE handleDraftRowAction
+[PASS] CALL RESOLVE handleUIDragEvent
+[PASS] CALL RESOLVE handleUIEvent
+[PASS] CALL RESOLVE handleUIKeyDown
+[PASS] CALL RESOLVE handleUITransferToDraft
+[PASS] CALL RESOLVE incrementDraftEntry
+[PASS] CALL RESOLVE initialize
+[PASS] CALL RESOLVE injectTestStoragePayload
+[PASS] CALL RESOLVE installTestActions
+[PASS] CALL RESOLVE invalidateCatalogCache
+[PASS] CALL RESOLVE isValidItemKitId
+[PASS] CALL RESOLVE listKits
+[PASS] CALL RESOLVE loadDraftFromKit
+[PASS] CALL RESOLVE loadStorage
+[PASS] CALL RESOLVE mergeEntriesIntoDraft
+[PASS] CALL RESOLVE mergeKitIntoDraft
+[PASS] CALL RESOLVE migrateStorage
+[PASS] CALL RESOLVE mutateContainerEntry
+[PASS] CALL RESOLVE normalizeItemEntries
+[PASS] CALL RESOLVE onInterfaceLoad
+[PASS] CALL RESOLVE onInterfaceUnload
+[PASS] CALL RESOLVE openCaptureDraft
+[PASS] CALL RESOLVE openInterface
+[PASS] CALL RESOLVE playUIFeedbackSound
+[PASS] CALL RESOLVE playUIMovementSound
+[PASS] CALL RESOLVE prepareCumulativeTestRun
+[PASS] CALL RESOLVE presentLogicalMutationResult
+[PASS] CALL RESOLVE presentUIResult
+[PASS] CALL RESOLVE pushUIFeedback
+[PASS] CALL RESOLVE refreshCatalogSelectionDetails
+[PASS] CALL RESOLVE refreshCatalogWindowUI
+[PASS] CALL RESOLVE refreshDraftMutationUI
+[PASS] CALL RESOLVE refreshEquipmentViewUI
+[PASS] CALL RESOLVE refreshInterface
+[PASS] CALL RESOLVE refreshPhysicalMutationUI
+[PASS] CALL RESOLVE refreshPhysicalTargetUI
+[PASS] CALL RESOLVE releaseApplicationLock
+[PASS] CALL RESOLVE removeDraftEntry
+[PASS] CALL RESOLVE renameItemKit
+[PASS] CALL RESOLVE requestDraftTransition
+[PASS] CALL RESOLVE resetRuntimeForTests
+[PASS] CALL RESOLVE resolveApplicationTarget
+[PASS] CALL RESOLVE resolveCatalogItem
+[PASS] CALL RESOLVE resolvePlayerContainer
+[PASS] CALL RESOLVE resolveUIItemMetadata
+[PASS] CALL RESOLVE restoreContainerSnapshot
+[PASS] CALL RESOLVE restoreProductionRepositorySnapshot
+[PASS] CALL RESOLVE rollbackApplication
+[PASS] CALL RESOLVE runDelivery0_10CheckpointBTests
+[PASS] CALL RESOLVE runDelivery0_10CheckpointCTests
+[PASS] CALL RESOLVE runDelivery0_10CheckpointDTests
+[PASS] CALL RESOLVE runDelivery0_10_0_7HotfixTests
+[PASS] CALL RESOLVE runDelivery0_11CheckpointATests
+[PASS] CALL RESOLVE runDelivery0_11CheckpointB5Tests
+[PASS] CALL RESOLVE runDelivery0_11CheckpointB6Tests
+[PASS] CALL RESOLVE runDelivery0_11CheckpointBTests
+[PASS] CALL RESOLVE runDelivery0_9_3Tests
+[PASS] CALL RESOLVE saveDraft
+[PASS] CALL RESOLVE saveDraftAsNew
+[PASS] CALL RESOLVE saveKit
+[PASS] CALL RESOLVE saveStorage
+[PASS] CALL RESOLVE scanVanillaInventorySounds
+[PASS] CALL RESOLVE setDraftEntryQuantity
+[PASS] CALL RESOLVE setDraftName
+[PASS] CALL RESOLVE setDraftPreferredTarget
+[PASS] CALL RESOLVE simulateApplicationEntries
+[PASS] CALL RESOLVE validateApplicationPlan
+[PASS] CALL RESOLVE validateItemEntryEnvironmental
+[PASS] CALL RESOLVE validateItemEntrySemantic
+[PASS] CALL RESOLVE validateItemEntryStructural
+[PASS] CALL RESOLVE validateItemKitEnvironmental
+[PASS] CALL RESOLVE validateItemKitSemantic
+[PASS] CALL RESOLVE validateItemKitStructural
+[PASS] CALL RESOLVE validateNexus
+[PASS] CALL RESOLVE validateStorageSemantic
+[PASS] CALL RESOLVE validateStorageStructural
+[PASS] EVENT EQUIPMENT VIEW FOCUSED
+[PASS] EVENT CATALOG CATEGORY FOCUSED
+[PASS] EVENT CATALOG SEARCH FOCUSED
+[PASS] EVENT CATALOG PAGE FOCUSED
+[PASS] CAT WINDOW NO fnc_getCatalog — getCatalogCategories is allowed; direct getCatalog call absent.
+[PASS] CAT WINDOW NO fnc_filterCatalog
+[PASS] CAT WINDOW NO fnc_listKits
+[PASS] CAT WINDOW NO fnc_getDraftState
+[PASS] CAT WINDOW NO fnc_capturePlayerContainer
+[PASS] CAT WINDOW NO fnc_refreshInterface
+[PASS] CAT WINDOW NO saveProfileNamespace
+[PASS] CAT WINDOW NO fnc_saveStorage
+[PASS] CAT WINDOW DIRECT CACHE
+[PASS] CAT WINDOW PROJECTION
+[PASS] CAT WINDOW COPIES WINDOW ONLY
+[PASS] EQUIP SAME VIEW SKIPS CAPTURE
+[PASS] EQUIP PERF LOG
+[PASS] EQUIP NO fnc_getCatalog
+[PASS] EQUIP NO fnc_filterCatalog
+[PASS] EQUIP NO fnc_listKits
+[PASS] EQUIP NO fnc_refreshInterface
+[PASS] EQUIP NO saveProfileNamespace
+[PASS] CAT PERF LOG
+[PASS] CAT REFRESH NO fnc_capturePlayerContainer
+[PASS] CAT REFRESH NO fnc_listKits
+[PASS] CAT REFRESH NO fnc_refreshInterface
+[PASS] CAT REFRESH NO saveProfileNamespace
+[PASS] VERSION 0.11 CP-B.6
+[PASS] VERSION 0.11.0.8
+[PASS] VERSION 0.11.0.8-cp-b6-focused-equipment-catalog-performance
+[PASS] VERSION CP_B_6_GATE_COUNT 8
+[PASS] VERSION CP_B_6_CUMULATIVE_GATE_COUNT 436
+[PASS] GATE 429 UNIQUE
+[PASS] GATE 430 UNIQUE
+[PASS] GATE 431 UNIQUE
+[PASS] GATE 432 UNIQUE
+[PASS] GATE 433 UNIQUE
+[PASS] GATE 434 UNIQUE
+[PASS] GATE 435 UNIQUE
+[PASS] GATE 436 UNIQUE
+[PASS] RUNNER BASE B5
+[PASS] RUNNER EXPECT 436
+[PASS] NO NIL ServoPeregrino_Organizador_Items/functions/ui/fn_getUICatalogWindow.sqf
+[PASS] NO NIL ServoPeregrino_Organizador_Items/functions/ui/fn_refreshCatalogWindowUI.sqf
+[PASS] NO NIL ServoPeregrino_Organizador_Items/functions/ui/fn_refreshEquipmentViewUI.sqf
+[PASS] NO NIL ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_11CheckpointB6Tests.sqf
+[PASS] DOC README_0_11_CP_B_6.txt
+[PASS] DOC INSTRUCOES_TESTE_0_11_CP_B_6.md
+[PASS] DOC SP_ORG_0_11_CP_B_6_PERFORMANCE.md
+[PASS] DOC DELTA_0_11_CP_B_6_VS_CP_B_5.txt
+[PASS] DOC BASELINE_0_11_CP_B_5_SOURCE_SHA256.txt
+[PASS] DOC SP_ORG_0_11_ROADMAP.md

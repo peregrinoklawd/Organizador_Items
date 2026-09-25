@@ -1,0 +1,4 @@
+SP_ORG_Items 0.12-D.2 — SOURCE TREE SHA-256
+
+Arquivos considerados: 471
+Aggregate SHA-256: 81493b3c3b5dba0c8c67af34d7d7332a86483b4719233b207c3bb76fc2727ed2

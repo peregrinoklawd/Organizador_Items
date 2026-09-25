@@ -1,0 +1,15 @@
+SP_ORG_Items 0.12-D.6.4 — AUTO DRAFT ARROW PARITY + REGRESSION CLOSE
+
+O que mudou:
+- O Auto-Rascunho aprovado no DnD agora também vale para a seta ← do Catálogo e para a seta ← do Conteúdo do Equipamento.
+- Não é mais necessário clicar em NOVO antes de usar essas setas quando KIT SELECIONADO estiver vazio.
+- Seleção, busca e cliques neutros continuam sem criar Rascunho.
+- Corrigido o gate histórico ITEMS-0.12-510, que ainda esperava o texto antigo “Draft atual” apesar da interface já usar “Rascunho atual”.
+- DnD, header ancorado, autoridade de Mostrar no Equipment e demais comportamentos da D.6.3 permanecem.
+
+Teste automático esperado: 617/617.
+
+Teste manual mínimo:
+1) Abra sem Rascunho e clique ← em um item do Catálogo: deve criar Rascunho + adicionar.
+2) Descarte, clique ← em um item do Equipment: deve criar Rascunho + copiar sem remover fisicamente.
+3) Repita um DnD para o Kit Selecionado: deve continuar funcionando.

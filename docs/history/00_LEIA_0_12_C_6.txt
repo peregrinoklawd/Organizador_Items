@@ -1,0 +1,28 @@
+SP_ORG_Items — 0.12-C.6 — Panel-Wide Drop Targets + DnD Restoration
+
+OBJETIVO
+Restaurar o Drag and Drop real nas superfícies modernas do Catálogo, Kit Selecionado/Draft e Conteúdo do Equipamento, mantendo Meus Kits como origem nativa de drag, e ampliar os destinos para toda a área dos painéis compatíveis.
+
+ALVO AUTOMÁTICO
+BASE 0.12-C.5 = 514/514
+0.12-C.6 = 10/10
+CUMULATIVO = 524/524
+
+AÇÃO
+SP_ORG_Items 0.12-C.6 — Panel-Wide Drop Targets + DnD Restoration 524
+
+PRINCIPAL TESTE MANUAL
+1. Catálogo: arraste pelo nome ou ícone e solte em qualquer área do Kit Selecionado.
+2. Equipment: arraste pelo nome ou ícone e solte em qualquer área do Kit Selecionado.
+3. Meus Kits: arraste o kit e solte em qualquer área do Kit Selecionado.
+4. Draft: arraste uma linha pelo nome ou ícone e solte em qualquer área do Conteúdo do Equipamento.
+5. Catálogo/Meus Kits: solte em qualquer área do Conteúdo do Equipamento para aplicação física quando o target estiver disponível.
+6. Confirme que botões ←/→/-/+/X e quantidade continuam sendo ações próprias e não iniciam drag.
+
+RPT
+Procure por:
+[DND] START
+[DND] HOVER
+[DND] DROP
+
+A C.6 é candidata até 524/524 + validação manual.

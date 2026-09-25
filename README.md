@@ -13,3 +13,11 @@ Este diretório foi preparado para controle de versão. Leia a documentação do
 ## Estado
 
 0.13-A source está implementada; Packaging R2 está pendente de validação no Arma. Não iniciar 0.13-B antes desse gate.
+
+## Source of Truth / continuidade
+
+Este repositório é a fonte principal para continuidade do SP_ORG.
+
+Antes de alterar runtime, leia `docs/00_STATUS_ATUAL.md`, `docs/01_ARQUITETURA.md`, `docs/08_LICOES_APRENDIDAS_DO_DONT.md`, `docs/09_ROADMAP_E_PROXIMO_PASSO.md`, `docs/10_CONTINUAR_COM_IA.md` e `machine/PROJECT_STATE.json`.
+
+Nunca reconstrua uma entrega por memória. Trabalhe por delta sobre a baseline registrada e preserve contratos homologados.

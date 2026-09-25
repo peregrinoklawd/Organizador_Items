@@ -1,0 +1,35 @@
+SP_ORG_Items 0.12-A — VALIDAÇÃO ESTÁTICA
+=========================================
+
+Resultado final: 76/76 PASS — 0 FAIL
+
+Identidade
+- display: 0.12-A
+- semanticVersion: 0.12.0.1
+- build: 0.12.0.1-a-header-search-layout-symmetry
+- baseline automática: 0.11 CP-D 460/460
+- novos gates: 461–468 (8)
+- cumulativo esperado: 468/468
+
+Validações principais
+- Nexus congelado byte a byte: 24/24 arquivos
+- Application congelado: 23/23
+- Domain congelado: 17/17
+- Storage congelado: 13/13
+- Draft congelado: 21/21
+- Catalog congelado: 11/11
+- Inventory congelado: 11/11
+- 200/200 arquivos fn_*.sqf registrados em description.ext
+- 172/172 referências ServoPeregrino_Organizador_Items_fnc_* resolvidas
+- nenhum IDC positivo duplicado entre os controles analisados
+- funções novas registradas em description.ext e config.cpp
+- controles de busca, cabeçalho e rótulos completos presentes
+- helper de cabeçalho sem EachFrame/onEachFrame/addMissionEventHandler
+- helpers de awareness estritamente read-only
+- runner herda CP-D 460/460 e preserva Storage Guard/loadout
+- gates históricos preservados; novos IDs 461–468
+- nenhum '&' cru nos textos runtime críticos revisados
+- 229 arquivos de código/configuração com strings/comentários e pares {}, [], () balanceados na checagem lexical
+
+Observação
+A validação estática reduz risco de erro estrutural, mas não substitui a execução dentro do Arma 3. A candidata só deve ser homologada após 468/468 no RPT e validação visual/manual.

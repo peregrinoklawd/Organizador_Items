@@ -1,0 +1,63 @@
+SP_ORG_Items 0.12-C.2 — VALIDAÇÃO ESTÁTICA
+PASS=60 FAIL=0 TOTAL=60
+
+[PASS] VERSION display 0.12-C.2
+[PASS] VERSION semantic 0.12.0.5
+[PASS] VERSION build C2
+[PASS] Gates C2 = 6
+[PASS] Cumulative = 494
+[PASS] Catalog window remains 120
+[PASS] Catalog focal row starts with left arrow
+[PASS] Catalog focal row ends with right arrow
+[PASS] Catalog FULL row starts with left arrow
+[PASS] Catalog FULL row ends with right arrow
+[PASS] Catalog left hit starts after picture
+[PASS] Catalog right hit anchored at far edge
+[PASS] Catalog action maps left to DRAFT
+[PASS] Catalog body remains non-action
+[PASS] Catalog physical action uses Application Target
+[PASS] Catalog focal remains CATALOG_FOCUSED
+[PASS] Catalog focal does not call filterCatalog
+[PASS] FULL does not call fnc_filterCatalog
+[PASS] Window helper uses virtual size macro
+[PASS] Visible Up control exists
+[PASS] Visible Down control exists
+[PASS] Visible slider exists
+[PASS] Up is aspect-safe
+[PASS] Down is aspect-safe
+[PASS] Legacy 244 modernized
+[PASS] Legacy 296 modernized
+[PASS] Legacy 351 player-facing
+[PASS] Legacy 358 uses left arrow x
+[PASS] Inherited 482 updated to lateral parity
+[PASS] C2 gate 489 present
+[PASS] C2 gate 490 present
+[PASS] C2 gate 491 present
+[PASS] C2 gate 492 present
+[PASS] C2 gate 493 present
+[PASS] C2 gate 494 present
+[PASS] C2 runner calls C.1 inherited baseline
+[PASS] C2 runner requires 488 baseline
+[PASS] C2 runner summary targets 494
+[PASS] C2 test action invokes C2 runner
+[PASS] C2 function registered in description
+[PASS] C2 function registered in module config
+[PASS] Equipment X remains immediate
+[PASS] Equipment DELETE does not require confirmation
+[PASS] Old delete-confirmed path absent
+[PASS] Header status updated to 494
+[PASS] 494 status in fn_refreshEquipmentViewUI.sqf
+[PASS] 494 status in fn_refreshInterface.sqf
+[PASS] 494 status in fn_refreshPhysicalMutationUI.sqf
+[PASS] 494 status in fn_refreshPhysicalTargetUI.sqf
+[PASS] No broken ctrlTooltip postfix in 0.9.3 runner
+[PASS] Delimiters balanced across 234 code/config files | []
+[PASS] All 205 Items functions registered in description.ext
+[PASS] All 177 Items function references resolve
+[PASS] Frozen vs C.1: ServoPeregrino_Organizador_Nexus
+[PASS] Frozen vs C.1: ServoPeregrino_Organizador_Items/functions/application
+[PASS] Frozen vs C.1: ServoPeregrino_Organizador_Items/functions/domain
+[PASS] Frozen vs C.1: ServoPeregrino_Organizador_Items/functions/draft
+[PASS] Frozen vs C.1: ServoPeregrino_Organizador_Items/functions/storage
+[PASS] Frozen vs C.1: ServoPeregrino_Organizador_Items/functions/catalog
+[PASS] Frozen vs C.1: ServoPeregrino_Organizador_Items/functions/inventory

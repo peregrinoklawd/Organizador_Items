@@ -1,0 +1,9 @@
+SP_ORG_Items — 0.12-A — Header, Search + Layout Symmetry
+
+Baseline: 0.11 CP-D homologada — 460/460.
+Esperado nesta candidata: 468/468.
+
+Principais mudanças: cabeçalho operador/unidade/carga, lupas, massa dos kits, ações do Draft no topo e rótulos completos de containers.
+O motor físico CP-D não foi reescrito.
+
+Leia INSTRUCOES_TESTE_0_12_A.md antes do teste manual.

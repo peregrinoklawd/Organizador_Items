@@ -1,0 +1,22 @@
+SP_ORG_Items 0.12-D.7.1 - arquivos de código/configuração alterados vs 0.12-D.7.0
+
+ALTERADO: ServoPeregrino_Organizador_Items/functions/library/fn_savePublicKitToPrivate.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD1Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD2Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD6Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD62Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD70Tests.sqf
+NOVO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD71Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIEvent.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshHeaderUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshInterface.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/script_version.hpp
+ALTERADO: ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+ALTERADO: ServoPeregrino_Organizador_Items/config.cpp
+ALTERADO: description.ext
+ALTERADO: initPlayerLocal.sqf
+
+Total: 18 arquivo(s) de código/configuração com delta + documentação da entrega.

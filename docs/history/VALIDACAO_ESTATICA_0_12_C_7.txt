@@ -1,0 +1,25 @@
+SP_ORG_Items — VALIDAÇÃO ESTÁTICA 0.12-C.7
+Unified Pointer DnD + Coordinate-Safe Hit Test
+Build: 0.12.0.10-c7-unified-pointer-dnd-coordinate-safe-hit-test
+
+RESULTADO: 59/59 PASS
+
+Escopo validado antes do empacotamento:
+- 243 arquivos SQF/HPP/CPP/EXT: parênteses, colchetes, chaves, strings e comentários estruturalmente balanceados.
+- Nenhum escape de aspas por barra invertida (\\\") encontrado nos fontes SQF/config.
+- 186 referências distintas ServoPeregrino_Organizador_Items_fnc_* resolvidas contra 214 arquivos fn_*.sqf; 0 não resolvidas.
+- resolveUIPointerSource, resolveUIPanelDropTarget, finalizeUIPointerDrop e runDelivery0_12CheckpointC7Tests registrados em description.ext e config.cpp.
+- Identidade corrente: displayVersion 0.12-C.7, semanticVersion 0.12.0.10, build correto e alvo cumulativo 530.
+- Gates C.7 525..530 presentes exatamente uma vez no runner C.7.
+- Gates C.6 515..524 preservados exatamente uma vez no runner C.6 corrigido.
+- Display possui handlers POINTER_DOWN, POINTER_MOVE e MOUSE_UP.
+- Renderers modernos de Catálogo, Equipment e Draft não dependem mais de MouseButtonDown direto nos controles-filho.
+- MouseMoving é tratado como DELTA de viagem; posição real de hover/drop vem de getMousePosition.
+- Resolver de origem percorre ctRowControls reais e aceita apenas Picture/Name como alças de drag.
+- Botões/edits não são considerados origem do drag.
+- Matriz de destino mantém Equipment→Equipment bloqueado e usa bounds compartilhados com o layout.
+- Application Engine, Catalog Service, Domain, Draft, Inventory, Storage e Nexus permanecem byte a byte congelados em relação à C.6.
+- Arquivos operacionais de init/lifecycle/UI/test action apontam para 0.12-C.7.
+
+IMPORTANTE:
+Esta validação é estática e não substitui o runtime do Arma 3. A C.7 foi criada justamente porque a C.6 mostrou que um teste sintético podia ficar verde mesmo quando o gesto humano estava quebrado. Por isso a candidata exige 530/530 no Arma 3 e smoke manual dos gestos reais antes de qualquer homologação.

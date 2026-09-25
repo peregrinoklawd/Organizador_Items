@@ -1,0 +1,25 @@
+0.12-C.8.1 vs 0.12-C.8
+
+ALTERADOS:
+- script_version.hpp: identidade 0.12-C.8.1, vars runtime do ghost e gates 537..542.
+- ui/items_dialog.hpp: removidos DragGhostBg/Icon/Text estáticos; header atualizado.
+- functions/ui/fn_updateUIDragVisualProxy.sqf: ghost runtime via ctrlCreate/ctrlDelete; StructuredText; cache visual; telemetria CREATE/MOVE_FIRST/HIDE.
+- functions/ui/fn_handleUIDragEvent.sqf: SHOW explícito no START custom e native ListBox; sem alteração de destino/dispatcher.
+- functions/ui/fn_createUIState.sqf, fn_onInterfaceLoad.sqf, fn_openInterface.sqf: textos de versão/diagnóstico.
+- functions/tests/fn_runDelivery0_12CheckpointC8Tests.sqf: gates 531..536 modernizados para a arquitetura runtime mantendo os IDs.
+- functions/tests/fn_runDelivery0_12CheckpointC81Tests.sqf: novos gates 537..542.
+- functions/tests/fn_installTestActions.sqf: ação 542 e textos de teste.
+- config.cpp / description.ext: registro do runner C81 e identidade atual.
+- initPlayerLocal.sqf / initServer.sqf: identidade atual.
+- documentação da C.8.1 e roadmap.
+
+CONGELADOS INTENCIONALMENTE:
+- Application Engine;
+- Catalog Service;
+- Domain;
+- Draft Service;
+- Inventory;
+- Storage;
+- Nexus;
+- resolvedores de origem/destino da C.7;
+- finalizador de drop e executor de transferência.

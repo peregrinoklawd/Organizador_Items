@@ -1,0 +1,20 @@
+SP_ORG_Items — 0.12-C.8
+Drag Visual Proxy / Item Ghost
+
+Base imediata:
+- 0.12-C.7: 530/530 + DnD real aprovado manualmente.
+
+Objetivo desta candidata:
+- restaurar a indicação visual de “segurar e carregar” o item durante o drag;
+- preservar integralmente a lógica DnD da 0.12-C.7.
+
+Comportamento esperado:
+- após o pequeno limiar que transforma clique em drag, uma faixa translúcida com ícone + nome acompanha o cursor;
+- o proxy é visual/pass-through e não interfere em MouseUp, hit-test, botões ou destinos;
+- desaparece ao concluir, cancelar ou fechar a interface;
+- funciona no DnD moderno de Catálogo, Equipment e Draft e também acompanha o drag nativo de Meus Kits quando o START é observado.
+
+Teste automático esperado: 536/536.
+Ação: SP_ORG_Items 0.12-C.8 — Drag Visual Proxy / Item Ghost 536
+
+Esta entrega permanece candidata até teste no Arma 3.

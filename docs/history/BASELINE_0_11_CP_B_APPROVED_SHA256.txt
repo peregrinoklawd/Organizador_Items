@@ -1,0 +1,8 @@
+Baseline homologada para CP-B.3
+================================
+Arquivo: SP_ORG_Items_0_11_CP_B_SoundOutcome_Feedback.zip
+SHA-256: 33b17dd5448eda7e2c2110d9327dfb0bbb92edd21ce65937d559cd905bae37db
+Gates: 414/414
+
+CP-B.1 e CP-B.2 NÃO são baselines homologadas.
+CP-B.2 rejeitada manualmente por silêncio em movimentação/Delete; seu RPT foi usado apenas como evidência diagnóstica.

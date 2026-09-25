@@ -1,0 +1,4 @@
+Baseline ZIP: SP_ORG_Items_0_12_FINAL_Integration_Freeze.zip
+SHA-256: 809cd982ff37e745febd69834b80845e5ab8f00eafe44fb8472c0e15adb9c07a
+
+0.13-A foi construída diretamente sobre esta baseline.

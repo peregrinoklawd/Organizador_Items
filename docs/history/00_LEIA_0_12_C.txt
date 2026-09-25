@@ -1,0 +1,18 @@
+SP_ORG_Items 0.12-C — Catalog Continuous List + Row Actions
+Build: 0.12.0.3-c-catalog-continuous-list-row-actions
+Suíte cumulativa esperada: 488/488
+
+Base: 0.12-B. A 0.12-C primeiro moderniza os gates legados do Equipment para a arquitetura CT_CONTROLS_TABLE e exige a herança 478/478; depois executa os gates 479–488.
+
+Destaques:
+- Catálogo sem paginação visível, apresentado como lista contínua;
+- janela virtual interna de 120 itens preserva performance;
+- wheel, ▲/▼ e slider vertical percorrem o catálogo global;
+- cada linha mostra ← para adicionar ao Draft e → para ADD físico no Destino de Aplicação;
+- tooltip e detalhes inferiores removem classe/addon técnico;
+- X/Delete do Equipment remove imediatamente, sem confirmação;
+- quantidade digitada 0 continua exigindo confirmação;
+- FULL passa a usar getUICatalogWindow, sem filterCatalog sobre o catálogo inteiro.
+
+Instalação: copie a pasta .VR para a pasta de missões do Arma 3 e abra normalmente.
+Leia INSTRUCOES_TESTE_0_12_C.md antes da homologação.

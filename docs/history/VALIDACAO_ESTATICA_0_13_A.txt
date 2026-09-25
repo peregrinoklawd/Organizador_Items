@@ -1,0 +1,24 @@
+SP_ORG_Items 0.13-A — VALIDACAO ESTATICA
+
+PASS — displayVersion = 0.13-A
+PASS — semanticVersion = 0.13.0.1
+PASS — build = 0.13.0.1-a-server-authority-foundation
+PASS — novos gates = 655..664 (10 gates)
+PASS — CfgRemoteExec registra apenas request server-only e callback client-only do novo contrato.
+PASS — server handler verifica isRemoteExecuted e remoteExecutedOwner e resolve jogador real em allPlayers.
+PASS — client callback aceita resposta remota somente quando remoteExecutedOwner == 2 em multiplayer.
+PASS — PUBLICAR preserva caminho síncrono em SP/servidor e usa request assíncrono apenas em cliente multiplayer.
+PASS — biblioteca pública preserva schema v1 e scope SESSION; autoridade SERVER é metadata separada.
+PASS — nenhum gate histórico foi removido ou renumerado.
+PASS — dívida histórica 516/523 permanece documentada/aceita e não é mascarada.
+PASS — scanner estrutural: 278 arquivos .sqf/.hpp/.cpp/.ext; 0 strings/comentários/delimitadores abertos; 0 padrão literal \".
+PASS — functions/application byte a byte idêntico à 0.12 FINAL.
+PASS — functions/inventory byte a byte idêntico à 0.12 FINAL.
+PASS — functions/draft byte a byte idêntico à 0.12 FINAL.
+PASS — functions/storage byte a byte idêntico à 0.12 FINAL.
+PASS — functions/catalog byte a byte idêntico à 0.12 FINAL.
+PASS — functions/ui/fn_handleUIDragEvent.sqf byte a byte idêntico à 0.12 FINAL.
+PASS — functions/ui/fn_executeUITransferCommand.sqf byte a byte idêntico à 0.12 FINAL.
+PASS — functions/ui/fn_createUIPhysicalRowCommand.sqf byte a byte idêntico à 0.12 FINAL.
+
+OBSERVAÇÃO — execução dentro do Arma 3 continua sendo o gate definitivo. O smoke multiplayer host+cliente é o teste funcional principal desta entrega.

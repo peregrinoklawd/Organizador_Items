@@ -1,0 +1,47 @@
+SP_ORG_Items 0.12-A — DELTA VS 0.11 CP-D HOMOLOGADA
+====================================================================
+Alterados: 15
+Adicionados: 11
+Removidos: 0
+
+ARQUIVOS ALTERADOS
+- SP_ORG_0_11_ROADMAP.md
+- ServoPeregrino_Organizador_Items/config.cpp
+- ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_buildUIViewModel.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceLoad.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshEquipmentViewUI.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshInterface.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalMutationUI.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalTargetUI.sqf
+- ServoPeregrino_Organizador_Items/script_version.hpp
+- ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+- description.ext
+- initPlayerLocal.sqf
+
+ARQUIVOS ADICIONADOS
+- 00_LEIA_0_12_A.txt
+- DELTA_0_12_A_VS_0_11_CP_D.txt
+- INSTRUCOES_TESTE_0_12_A.md
+- INVENTARIO_SHA256_0_12_A.txt
+- README_0_12_A.txt
+- SP_ORG_0_12_A_HEADER_SEARCH_LAYOUT.md
+- SP_ORG_0_12_ROADMAP.md
+- ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointATests.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_getUIItemKitAwareness.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshHeaderUI.sqf
+- VALIDACAO_ESTATICA_0_12_A.txt
+
+ARQUIVOS REMOVIDOS
+- nenhum
+
+DOMÍNIOS FUNCIONAIS CONGELADOS BYTE A BYTE
+- ServoPeregrino_Organizador_Nexus
+- Items/functions/application
+- Items/functions/domain
+- Items/functions/storage
+- Items/functions/draft
+- Items/functions/catalog
+- Items/functions/inventory

@@ -1,0 +1,11 @@
+DELTA 0.12-D.6.2 vs 0.12-D.6.1
+
+1. Corrigida autoridade do drop físico: Equipment usa equipmentView/Mostrar, não applicationTarget.
+2. Separada readiness do painel Equipment da readiness do alvo de aplicação do Kit.
+3. Header convergido visualmente para o padrão APM e removido "Adicionar em" da faixa visível.
+4. Carga geral formatada em kg + lb + percentual.
+5. ANY/Qualquer mantido internamente e retirado da interface visível.
+6. Capacidade do Equipment reorganizada em linha única.
+7. Textos voltados ao jogador usam "Rascunho" onde tratado nesta entrega.
+8. CP-D e checkpoints visuais históricos ajustados para contratos atuais em vez de strings/comentários obsoletos.
+9. Novo runner D.6.2 com gates 595-602 e acumulado esperado 602/602.

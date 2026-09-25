@@ -1,0 +1,30 @@
+0.12-C.8 — ARQUIVOS ALTERADOS VS C.7
+
+Alterados: 16
+M  SP_ORG_0_12_ROADMAP.md
+M  ServoPeregrino_Organizador_Items/config.cpp
+M  ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+M  ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+M  ServoPeregrino_Organizador_Items/functions/ui/fn_cancelUIDrag.sqf
+M  ServoPeregrino_Organizador_Items/functions/ui/fn_createUIDragSnapshot.sqf
+M  ServoPeregrino_Organizador_Items/functions/ui/fn_createUIState.sqf
+M  ServoPeregrino_Organizador_Items/functions/ui/fn_handleUIDragEvent.sqf
+M  ServoPeregrino_Organizador_Items/functions/ui/fn_onInterfaceLoad.sqf
+M  ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf
+M  ServoPeregrino_Organizador_Items/functions/ui/fn_resolveUIPointerSource.sqf
+M  ServoPeregrino_Organizador_Items/script_version.hpp
+M  ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+M  description.ext
+M  initPlayerLocal.sqf
+M  initServer.sqf
+
+Adicionados: 7
+A  00_LEIA_0_12_C_8.txt
+A  DELTA_0_12_C_8_VS_0_12_C_7.txt
+A  INSTRUCOES_TESTE_0_12_C_8.md
+A  README_0_12_C_8.txt
+A  SP_ORG_0_12_C_8_DRAG_VISUAL_PROXY.md
+A  ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointC8Tests.sqf
+A  ServoPeregrino_Organizador_Items/functions/ui/fn_updateUIDragVisualProxy.sqf
+
+Removidos: 0

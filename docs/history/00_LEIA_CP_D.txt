@@ -1,0 +1,17 @@
+SP_ORG_Items — 0.11 CP-D — Movement Controls + Interaction Polish
+
+Base: 0.11 CP-C — 450/450.
+Esperado desta candidata: 460/460.
+
+Esta entrega incorpora o hardening de Structured Text detectado no RPT da CP-C e acrescenta:
+- seta de Kit salvo -> Draft sem trocar o Draft por engano;
+- controles físicos - / quantidade / + / X no Equipment selecionado;
+- quantidade 0 remove após confirmação;
+- Return/Numpad Enter confirmam quantidade física;
+- EXACT não fabrica stateData: crescimento por digitação é bloqueado e + em EXACT cria magazine DEFAULT_FULL separado;
+- Delete físico e quantidade 0 usam confirmação;
+- ATUALIZAR Equipment usa EQUIPMENT_FOCUSED;
+- wheel é consumido localmente pelo display SP_ORG e convertido em scroll local, sem handler global do action menu.
+
+Teste primeiro a ação automática 460/460. Depois faça o smoke manual descrito em INSTRUCOES_TESTE_0_11_CP_D.md.
+Esta é uma candidata; não promover a baseline antes de RPT + teste manual aprovados.

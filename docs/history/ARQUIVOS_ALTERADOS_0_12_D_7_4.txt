@@ -1,0 +1,32 @@
+SP_ORG_Items 0.12-D.7.4 — arquivos de código alterados/adicionados vs 0.12-D.7.3 R2
+
+ALTERADOS
+- description.ext
+- initPlayerLocal.sqf
+- ServoPeregrino_Organizador_Items/config.cpp
+- ServoPeregrino_Organizador_Items/script_version.hpp
+- ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+- ServoPeregrino_Organizador_Items/functions/ui/fn_refreshHeaderUI.sqf
+- ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+- ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+- ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointC4Tests.sqf
+- ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD71Tests.sqf
+- ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD72Tests.sqf
+- ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD73Tests.sqf
+
+ADICIONADO
+- ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD74Tests.sqf
+
+DOCUMENTAÇÃO NOVA/ATUALIZADA
+- 00_LEIA_0_12_D_7_4.txt
+- README_0_12_D_7_4.txt
+- INSTRUCOES_TESTE_0_12_D_7_4.md
+- SP_ORG_0_12_D_7_4_PLAYER_LOAD_SEMANTICS_HISTORICAL_GATE_HARDENING.md
+- SP_ORG_0_12_ROADMAP.md (atualizado)
+- VALIDACAO_ESTATICA_0_12_D_7_4.txt
+- SOURCE_TREE_SHA256_0_12_D_7_4.txt
+
+DIRETÓRIOS CONFIRMADOS IDÊNTICOS À BASELINE
+- ServoPeregrino_Organizador_Items/functions/application
+- ServoPeregrino_Organizador_Items/functions/library
+- ServoPeregrino_Organizador_Items/functions/storage

@@ -1,0 +1,15 @@
+VALIDAÇÃO ESTÁTICA — SP_ORG_Items 0.12-D.7.0
+
+- 266 arquivos .sqf/.hpp/.cpp/.ext verificados por scanner de delimitadores com reconhecimento de strings e comentários.
+- Resultado do scanner: 0 desequilíbrios detectados.
+- 209 chamadas ServoPeregrino_Organizador_Items_fnc_* distintas verificadas; 0 funções sem registro em CfgFunctions.
+- Library Service D.7.0 registrado em description.ext e config.cpp: get/list/get-public/publish/save-private.
+- Runner D.7.0 registrado em description.ext e config.cpp.
+- Versão: 0.12-D.7.0 / semantic 0.12.0.23 / build 0.12.0.23-d7-0-private-public-library-foundation.
+- Checkpoint novo: gates 618..627; acumulado esperado: 627/627.
+- Abas PRIVADOS/PÚBLICOS e ações PUBLICAR / SALVAR NO PRIVADO presentes no diálogo.
+- Gates históricos D.6.1..D.6.4 endurecidos para aceitar descendentes 0.12-D.x sem congelar a versão anterior.
+- Biblioteca pública declarada SESSION-scoped e não autoritativa; snapshots são separados do Repository privado.
+- DnD público é bloqueado; cópia pública->privada gera novo ItemKit ID.
+
+Atenção: esta validação não substitui a execução no engine. O Arma 3 não está disponível neste ambiente para confirmar os gates runtime e o acumulado 627/627.

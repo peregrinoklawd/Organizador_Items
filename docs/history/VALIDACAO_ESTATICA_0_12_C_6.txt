@@ -1,0 +1,37 @@
+SP_ORG_Items — 0.12-C.6 — Validação Estática
+
+RESULTADO: 40/40 PASS
+
+Escopo verificado:
+- 240 arquivos SQF/HPP/EXT/CPP com delimitadores e strings estruturais balanceados;
+- initPlayerLocal.sqf validado após correção do erro de montagem encontrado durante o hardening;
+- 211 arquivos fn_*.sqf registrados em description.ext;
+- novas funções C.6 resolveUIPanelDropTarget e runDelivery0_12CheckpointC6Tests registradas também no config.cpp;
+- 183/183 referências ServoPeregrino_Organizador_Items_fnc_* resolvem para arquivos reais;
+- nenhum IDC positivo duplicado na interface;
+- IDs dos painéis Draft/Equipment presentes;
+- matriz de drop por painel validada;
+- Catálogo, Equipment e Draft iniciam drag somente por nome/ícone;
+- botões de ação não são drag handles;
+- pipeline display MouseMoving/MouseButtonUp ligado ao DnD;
+- telemetria DND START/HOVER/DROP presente; HOVER muda somente ao trocar área;
+- tokens históricos de DnD preservados;
+- cancelamento restaura o texto histórico exato ARRASTE ITENS PARA CÁ, preservando gates 309/310;
+- gate 489 herdado modernizado sem string/rail antiga inválida;
+- gates 515..524 presentes exatamente;
+- baseline exigida pela C.6 = C.5 514/514;
+- requestEquipmentRowAction/executeEquipmentRowAction byte a byte congelados;
+- Application Engine byte a byte congelada vs C.5;
+- Catalog Service byte a byte congelado vs C.5;
+- Domain byte a byte congelado vs C.5;
+- Draft Domain byte a byte congelado vs C.5;
+- Inventory byte a byte congelado vs C.5;
+- Storage byte a byte congelado vs C.5;
+- Nexus byte a byte congelado vs C.5;
+- janela virtual do Catálogo permanece 32;
+- FULL/CATALOG_FOCUSED não reintroduzem filterCatalog;
+- Equipment X/Delete imediato preservado;
+- nenhum & cru detectado em Structured Text runtime.
+
+Observação:
+A execução SQF dentro do engine Arma 3 não é reproduzível neste ambiente. A homologação depende do RPT 524/524 e do smoke manual, especialmente dos eventos de mouse reais.

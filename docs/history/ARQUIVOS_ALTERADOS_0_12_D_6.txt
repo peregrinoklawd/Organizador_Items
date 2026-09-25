@@ -1,0 +1,35 @@
+SP_ORG_Items 0.12-D.6 — arquivos alterados vs D.5
+
+NOVO: 00_LEIA_0_12_D_6.txt
+NOVO: BASELINE_0_12_D_5_ZIP_SHA256.txt
+NOVO: DELTA_0_12_D_6_VS_0_12_D_5.txt
+NOVO: INSTRUCOES_TESTE_0_12_D_6.md
+NOVO: INVENTARIO_SHA256_0_12_D_6.txt
+NOVO: README_0_12_D_6.txt
+NOVO: SOURCE_TREE_SHA256_0_12_D_6.txt
+NOVO: SP_ORG_0_12_D_6_UI_COHESION_WEIGHT_POLISH.md
+NOVO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD6Tests.sqf
+NOVO: ServoPeregrino_Organizador_Items/functions/ui/fn_formatUIMass.sqf
+NOVO: VALIDACAO_ESTATICA_0_12_D_6.txt
+ALTERADO: ServoPeregrino_Organizador_Items/config.cpp
+ALTERADO: ServoPeregrino_Organizador_Items/functions/lifecycle/fn_initialize.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_installTestActions.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD2Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD4Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_12CheckpointD5Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/tests/fn_runDelivery0_9_3Tests.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_openInterface.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshCatalogSelectionDetails.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshCatalogWindowUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshDraftMutationUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshHeaderUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshInterface.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalMutationUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_refreshPhysicalTargetUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_renderCatalogRowsUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_renderEquipmentRowsUI.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/functions/ui/fn_updateUIDragVisualProxy.sqf
+ALTERADO: ServoPeregrino_Organizador_Items/script_version.hpp
+ALTERADO: ServoPeregrino_Organizador_Items/ui/items_dialog.hpp
+ALTERADO: description.ext
+ALTERADO: initPlayerLocal.sqf

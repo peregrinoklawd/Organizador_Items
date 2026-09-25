@@ -1,0 +1,15 @@
+VALIDAÇÃO ESTÁTICA - SP_ORG_Items 0.12-D.6.2
+
+- 258 arquivos .sqf/.hpp/.cpp/.ext verificados por scanner de delimitadores com reconhecimento de strings e comentários.
+- Resultado do scanner: 0 desequilíbrios detectados.
+- Runner D.6.2 registrado em description.ext e config.cpp.
+- Versão: 0.12-D.6.2.
+- Semantic version: 0.12.0.20.
+- Novo checkpoint: 8 gates; acumulado esperado: 602.
+- fn_finalizeUIPointerDrop.sqf resolve PHYSICAL por equipmentView.
+- fn_handleUIDragEvent.sqf resolve fluxo legado PHYSICAL por equipmentView.
+- Nenhum uso de applicationTarget foi encontrado nesses dois pontos de resolução de DnD físico após a alteração.
+- ANY permanece registrado internamente e o controle visual AppAny foi deslocado para fora da área visível.
+- HeaderStatus permanece como stub de compatibilidade fora da área visível.
+
+Atenção: esta validação não substitui execução no engine. O Arma 3 não está disponível neste ambiente para rodar a missão e confirmar 602/602 em runtime.
